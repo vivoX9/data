@@ -1,0 +1,8 @@
+Es6:
+ export default{
+	
+}
+ export{   }
+webpack:
+  module.exports={
+}

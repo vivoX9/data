@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+	</head>
+
+	<body>
+		<button id="icon" onclick="fn()">下载</button>
+		<script src="download.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			//不跨域
+			function fn() {
+				//用download.js将base64格式的
+				function dlDataUrlBin(base64) {
+					download(base64, "dlDataUrlBin.png", "image/png");
+				}
+				//将img转换为成base64格式
+				change();
+
+				function change() {
+					console.log(1)
+					var img = "./01.png"; //imgurl 就是你的图片路径  
+					function getBase64Image(img) {
+						var canvas = document.createElement("canvas");
+						canvas.width = img.width;
+						canvas.height = img.height;
+						var ctx = canvas.getContext("2d");
+						ctx.drawImage(img, 0, 0, img.width, img.height);
+						var ext = img.src.substring(img.src.lastIndexOf(".") + 1).toLowerCase();
+						console.log(ext)
+						console.log(canvas)
+						var dataURL = canvas.toDataURL();
+						return dataURL;
+					}
+					var image = new Image();
+					image.src = img;
+					image.onload = function() {
+						console.log(image)
+						var base64 = getBase64Image(image);
+						dlDataUrlBin(base64)
+					}
+				}
+			}
+		</script>
+	</body>
+
+</html>

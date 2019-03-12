@@ -1,0 +1,150 @@
+1.call和apply
+	apply：调用一个对象的一个方法，用另一个对象替换当前对象。
+	            例如：B.apply(A, arguments);即A对象应用B对象的方法。
+	call：调用一个对象的一个方法，用另一个对象替换当前对象。
+	         例如：B.call(A, args1,args2);即A对象调用B对象的方法。
+	它们的共同之处：
+		都“可以用来代替另一个对象调用一个方法，将一个函数的对象上下文
+		从初始的上下文改变为由thisObj指定的新对象”。
+	它们的不同之处：
+		apply：最多只能有两个参数——新this对象和一个数组argArray。
+		如果给该方法传递多个参数，则把参数都写进这个数组里面，当然，
+		即使只有一个参数，也要写进数组里。如果argArray不是一个有效
+		的数组或arguments对象，那么将导致一个TypeError。
+		如果没有提供argArray和thisObj任何一个参数，那么Global对象将被用作thisObj，
+		并且无法被传递任何参数。
+		call：它可以接受多个参数，第一个参数与apply一样，后面则是一串参数列表。
+		这个方法主要用在js对象各方法相互调用的时候，使当前this实例指针保持一致，
+		或者在特殊情况下需要改变this指针。如果没有提供thisObj参数，那么 Global 
+		对象被用作thisObj。 
+2.promise
+	Promise 是异步编程的一种解决方案：从语法上讲，promise是一个对象，
+	从它可以获取异步操作的消息；从本意上讲，它是承诺，承诺它过一段时间会给你一个结果。
+	promise有三种状态：pending(等待态)，fulfiled(成功态)，rejected(失败态)；状态一旦改变，
+	就不会再变。创造promise实例后，它会立即执行。
+	function fn() {
+		ajax("http://wlcx.adinnet.cn:8805/m/exprees/getDetail", {
+			"expressNumber": "EX2019021218936"
+		}).then(res => {
+			console.log(res, 88)
+		}).catch(res => {
+			console.log(res, 8)
+			})
+		}
+
+	function ajax(url,params){
+		return new Promise((resolve,reject)=>{
+			var xhr=new XMLHttpRequest()
+			xhr.open("post",url,true)
+			xhr.setRequestHeader("Content-type", "application/json; charset=utf-8")
+			xhr.send(JSON.stringify(params))
+			xhr.onreadystatechange=function(){
+				if(xhr.readyState==4){
+					if(xhr.status==200){
+						resolve(xhr.responseText)
+					}else{
+						reject()
+					}
+				}
+			}
+		})
+	}
+3.事件冒泡
+	事件流：捕获阶段，事件源，冒泡阶段。
+	
+
+取消默认事件
+
+		w3c的方法是e.preventDefault()，
+		IE则是使用e.returnValue = false;
+	
+
+阻止冒泡
+		
+
+window.event? window.event.cancelBubble = true : e.stopPropagation();
+4.cookie,session,localStorage
+?	共同点：用于浏览器端存储的缓存数据
+
+
+	不同点：  
+
+(1)、存储内容是否发送到服务器端
+		(2)、数据存储大小不同：Cookie数据不能超过4K,适用于会话
+		标识；web storage数据存储可以达到5M;
+
+
+		(3)、数据存储的有效期限不同：
+		cookie只在设置了Cookid过期时间之前一直有效，即使关闭窗口或者浏览器；
+
+? ? ? ? 
+		sessionStorage,仅在关闭浏览器之前有效；localStorage,数据存储永久有效；
+
+		
+(4)、作用域不同：cookie和localStorage是在同源同窗口中都是共享的；
+		sessionStorage不在不同的浏览器窗口中共享，即使是同一个页面；
+5.跨域
+	(1)、porxy代理
+	(2)、CORS 【Cross-Origin Resource Sharing】
+	(3)、jsonp
+6.虚拟dom
+	Virual DOM是用JS对象记录一个dom节点的副本，当dom发生更改时候，先用
+	虚拟dom进行diff，算出最小差异，然后再修改真实dom。
+
+	vue的virtual dom的diff算法是基于snabbdom算法改造而来，与react的diff算法一样
+	仅在同级的vnode间做diff，递归的进行同级vnode的diff，最终实现整个DOM树的更新。
+
+	虚拟DOM的缺点：
+
+	1. 代码更多，体积更大
+
+	2. 内存占用增大
+
+	3. 小量的单一的dom修改使用虚拟dom成本反而更高，不如直接修改真实dom快
+7.get和post区别
+	相同点：都是异步请求的方式来获取服务端的数据；
+
+
+	异同点：
+	1、请求方式不同：$.get()?方法使用GET方法来进行异步请求的。
+	     $.post()?方法使用POST方法来进行异步请求的。
+
+
+	2、参数传递方式不同：get请求会将参数跟在URL后进行传递，而POST请求则是作为HTTP
+	      消息的实体内容发送给Web服务器的，这种传递是对用户不可见的。
+
+
+	3、数据传输大小不同：get方式传输的数据大小不能超过2KB?而POST要大的多
+
+
+	4、安全问题：?GET?方式请求的数据会被浏览器缓存起来，因此有安全问题。
+
+8.ajax
+	function ajax(url,params){
+		var xhr=new XMLHttpRequest()
+		xhr.open("POST",url,TRUE)
+		xhr.setHeadRequest()
+		xhr.send(params)
+		xhr.onreadyStatechange=function(){
+			if(xhr.readyState==4&&xhr.status==200){
+				成功
+			}else{
+				失败			
+			}
+		}
+	}
+9.闭包
+	使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，
+	缺点是闭包会常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。
+
+	闭包有三个特性：
+
+	1.函数嵌套函数 
+
+	2.函数内部可以引用外部的参数和变量 
+
+	3.参数和变量不会被垃圾回收机制回收
+
+10.splice和slice的区别
+	splice(开始截取的下标，截取的长度)   截取后原数组改变
+	slice(开始截取的下标，结束截取的下标)   截取后原数组不变

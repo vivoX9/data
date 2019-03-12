@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title></title>
+	</head>
+	<body>
+		<div onclick="fn()">点击</div>
+		<script type="text/javascript">
+			function fn() {
+				ajax("http://wlcx.adinnet.cn:8805/m/exprees/getDetail", {
+					"expressNumber": "EX2019021218936"
+				}).then(res => {
+					console.log(res, 88)
+				}).catch(res => {
+					console.log(res, 8)
+				})
+			}
+
+			function ajax(url,params){
+				return new Promise((resolve,reject)=>{
+					var xhr=new XMLHttpRequest()
+					xhr.open("post",url,true)
+					xhr.setRequestHeader("Content-type", "application/json; charset=utf-8")
+					xhr.send(JSON.stringify(params))
+					xhr.onreadystatechange=function(){
+						if(xhr.readyState==4){
+							if(xhr.status==200){
+								resolve(xhr.responseText)
+							}else{
+								reject()
+							}
+						}
+					}
+				})
+			}
+// 			function postAjax(url, data) {
+// 				return new Promise((resolved, rejected) => {
+// 					//创建ajax对象
+// 					let xhr = new XMLHttpRequest();
+// 					//配置参数
+// 					xhr.open('post', url, true);
+// 					//设置请求头，表示我传递的参数的类型
+// 					xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+// 					//发送请求，并将数据传递过去
+// 					xhr.send(JSON.stringify(data));
+// 					//请求成功之后
+// 					xhr.onload = function() {
+// 						if (this.status === 200) {
+// 							console.log(xhr.responseText)
+// 							resolved(xhr.responseText);
+// 						} else {
+// 							console.log(4)
+// 							rejected();
+// 						}
+// 					}
+// 				})
+// 			}
+		</script>
+	</body>
+</html>

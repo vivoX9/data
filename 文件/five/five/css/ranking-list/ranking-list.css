@@ -1,0 +1,72 @@
+body {
+  background: #f2f2f2;
+}
+#main {
+  width: 100%;
+  margin-top: 2.45945946rem;
+  margin-bottom: 1.32432432rem;
+  background: none;
+  padding: 0;
+}
+#main div.common1 {
+  width: 100%;
+  padding: 0 0.52702703rem 0.28378378rem 0.45945946rem;
+  margin-bottom: 0.27027027rem;
+  background: #fff;
+}
+#main div.common1 .top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  align-items: center;
+}
+#main div.common1 .top h4 {
+  font-size: 15px;
+  line-height: 1.2027027rem;
+}
+#main div.common1 .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+#main div.common1 .bottom .img {
+  width: 2.10810811rem;
+}
+#main div.common1 .bottom .img img {
+  width: 100%;
+}
+#main div.common1 .bottom .discription {
+  margin-left: 0.77027027rem;
+}
+#main div.common1 .bottom .discription li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 0.77027027rem;
+  margin-bottom: 0.27027027rem;
+}
+#main div.common1 .bottom .discription li i {
+  width: 0.32432432rem;
+  height: 0.32432432rem;
+  margin-top: -5px;
+}
+#main div.common1 .bottom .discription li i img {
+  width: 100%;
+  height: 100%;
+}
+#main div.common1 .bottom .discription li div {
+  margin-left: 0.22972973rem;
+  font-size: 0;
+}
+#main div.common1 .bottom .discription li div span:first-child {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 0.35135135rem;
+}
+#main div.common1 .bottom .discription li div span:nth-child(2) {
+  font-size: 8px;
+  color: #a8a8a8;
+}
+#main div.common1 .bottom .discription li:last-child {
+  margin-bottom: 0;
+}

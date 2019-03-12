@@ -1,0 +1,40 @@
+Adobe Photoshop CS6 Extend 软件街绿色加强版
+
+★加强版的功能：
+
+1.集成超量笔刷，样式，形状，后期处理动作
+
+2.集成超量插件：xenofex2，TOPAZ，KPT7，ImageDoctor，eyecandy5，DCE Tools，抽丝，磨皮等！！！
+
+3.支持打开ICO文件
+
+4.解决不支持TWAIN扫描仪的问题
+
+5.资源管理器支持PSD格式缩略图
+
+
+★去除的文件：
+
+删除Bridge
+删除帮助
+删除示例文件
+
+
+★KPT7插件必须手动输入序列号
+
+KPT7插件序列号：
+用户名：softjie
+序列号：TF70CUM-0190331-MHS
+
+
+★非管理员用户出现“暂存盘保护”或“在应用程序文件夹中发现其它未经许可的语言包”或 “配置错误”
+
+解决：Adobe Photoshop CS6\photoshop.exe，右键-属性-兼容性-勾上【以管理员身份运行此程序】 
+
+
+★如果出现“由于配置文件不正确，应用程序未能启动，重新安装应用程序可能会纠正这个问题。”
+
+请安装VC库！（Microsoft Visual C++ 2008）http://www.softjie.cn/read-htm-tid-29055.html
+
+
+★XP用户可能不支持Extend(3D功能)。

@@ -1,0 +1,4 @@
+1.npm i lib-flexible --save
+2.在main.js里引入flexible，
+	import 'lib-flexible/flexible.js'
+3.设置编辑器转换，iphone6 750px的1rem=37.5

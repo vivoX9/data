@@ -1,0 +1,61 @@
+{
+  "configs": [
+    {
+      "server": "45.58.54.69",
+      "server_port": 10289,
+      "password": "taixing123456",
+      "method": "rc4-md5",
+      "remarks": "美国节点",
+      "auth": false
+    },
+    {
+      "server": "103.207.68.163",
+      "server_port": 10289,
+      "password": "taixing123456",
+      "method": "rc4-md5",
+      "remarks": "香港节点",
+      "auth": false
+    }
+  ],
+  "strategy": null,
+  "index": 0,
+  "global": false,
+  "enabled": true,
+  "shareOverLan": false,
+  "isDefault": false,
+  "localPort": 1080,
+  "pacUrl": null,
+  "useOnlinePac": false,
+  "availabilityStatistics": false,
+  "autoCheckUpdate": true,
+  "isVerboseLogging": false,
+  "logViewer": {
+    "fontName": "Consolas",
+    "fontSize": 8.0,
+    "bgColor": "black",
+    "textColor": "white",
+    "topMost": false,
+    "wrapText": false,
+    "toolbarShown": false,
+    "width": 600,
+    "height": 400,
+    "top": 460,
+    "left": 840,
+    "maximized": true
+  },
+  "proxy": {
+    "useProxy": false,
+    "proxyType": 0,
+    "proxyServer": "",
+    "proxyPort": 0
+  },
+  "hotkey": {
+    "SwitchSystemProxy": "",
+    "ChangeToPac": "",
+    "ChangeToGlobal": "",
+    "SwitchAllowLan": "",
+    "ShowLogs": "",
+    "ServerMoveUp": "",
+    "ServerMoveDown": ""
+  }
+}

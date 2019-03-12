@@ -1,0 +1,82 @@
+{
+	"cursor": 0,
+	"size": 40,
+	"page": 0,
+	"result": [{
+			"price": "1000",
+			"name": "小米手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "2000",
+			"name": "华为手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "3000",
+			"name": "锤子手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "4000",
+			"name": "一加手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "5000",
+			"name": "魅族手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "6000",
+			"name": "小米手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "7000",
+			"name": "华为手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "8000",
+			"name": "锤子手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "9899",
+			"name": "一加手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "10099",
+			"name": "魅族手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "20000",
+			"name": "小米手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "30000",
+			"name": "华为手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "40000",
+			"name": "锤子手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "50899",
+			"name": "一加手机",
+			"imgUrl": "img/1.png"
+		},
+		{
+			"price": "60099",
+			"name": "魅族手机",
+			"imgUrl": "img/1.png"
+		}
+	],
+	"hasnext": 100
+}

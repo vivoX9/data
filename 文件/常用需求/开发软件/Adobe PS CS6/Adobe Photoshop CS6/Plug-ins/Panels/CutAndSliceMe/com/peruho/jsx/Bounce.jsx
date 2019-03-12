@@ -1,0 +1,1 @@
+﻿var asInterface = {}; function init( wrapper ) {   asInterface = wrapper;}  function Bounce( title, myFunction ) {   var foo = "asInterface." + myFunction;   app.activeDocument.suspendHistory (title, foo);}

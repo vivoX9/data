@@ -1,0 +1,154 @@
+@rem: 75rem;
+.font-dpr (@fontSize: 12px) {
+    font-size: @fontSize;
+    [data-dpr=2] & {
+        font-size: @fontSize*2;
+    }
+    [data-dpr=3] & {
+        font-size: @fontSize*3;
+    }
+}
+
+.border-radius(@radius: 5px) {
+    border-radius: @radius;
+}
+
+.bg(@bk) {
+    background: @bk;
+}
+
+.lg(@lg) {
+    line-height: @lg;
+}
+
+body {
+    .bg(#fff);
+}
+
+//头部
+#head {
+    width: 100%;
+    border-bottom: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h4 {
+        width: 156/@rem;
+        line-height: 87/@rem;
+        font-size: 16px;
+        text-align: center;
+    }
+    h4:first-child {
+        margin-right: 62/@rem;
+        margin-left: 192/@rem;
+    }
+    h4:nth-child(2) {
+        margin-right: 117/@rem;
+    }
+    h4.active {
+        border-bottom: 2px solid #3e3e3e;
+    }
+    i {
+        width: 35/@rem;
+        height: 35/@rem;
+        background: url(../../images/42.png);
+        background-size: 100% 100%;
+    }
+}
+
+//主体
+#main {
+    padding: 0 55/@rem 0 62/@rem;
+    margin-bottom: 98/@rem;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 40/@rem;
+        li {
+            width: 190/@rem;
+            height: 380/@rem;
+            margin-bottom: 58/@rem;
+            text-align: center;
+            div {
+                position: relative;
+                img {
+                    width: 100%;
+                }
+                p {
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    background: #020202;
+                    font-size: 7px;
+                    color: #fff;
+                    padding-left: 12/@rem;
+                }
+            }
+            p {
+                font-size: 10px;
+                color: #3e3e3e;
+                line-height: 47/@rem;
+            }
+        }
+        li.last {
+            .input {
+                width: 190/@rem;
+                height: 310/@rem;
+                line-height: 310/@rem;
+                display: inline-block;
+                position: relative;
+                padding: 3px 5px;
+                overflow: hidden;
+                color: #3e3e3e;
+                background-color: #fff;
+                border: 1px solid #3e3e3e;
+                .add {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    outline: none;
+                    background-color: transparent;
+                    filter: alpha(opacity=0);
+                    -moz-opacity: 0;
+                    -khtml-opacity: 0;
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+//底部
+#foot {
+    width: 100%;
+    height: 98/@rem;
+    background: #fff;
+    a {
+        color: #000000;
+        i {
+            width: 30/@rem;
+            height: 30/@rem;
+            margin-bottom: 10/@rem;
+        }
+        i.first {
+            background: url(../../images/09.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        i.second {
+            background: url(../../images/10.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        i.third {
+            background: url(../../images/11.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        i.fourth {
+            background: url(../../images/08.png) no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+}

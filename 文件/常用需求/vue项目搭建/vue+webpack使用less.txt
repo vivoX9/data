@@ -1,0 +1,14 @@
+1.安装less   yarn add less less-loader
+2.在webpack.config.base文件里加入
+        {
+ 	test: /\.less$/,
+ 	use: [
+  	        "style-loader",
+  	        "css-loader",
+  	        "less-loader"
+	 ]
+         }
+3.在需要使用的页面
+	<style scoped="less">
+	         ......
+	<style>

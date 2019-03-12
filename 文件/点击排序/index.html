@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>K2046.TableSorter</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="sort.js"></script>
+<style type="text/css">
+body {
+	font-size: 12px;
+	line-height: 25px;
+}
+tr {
+	height: 25px;
+}
+th {
+	font-size: 14px;
+	border-bottom: solid 1px #DDDDDD;
+	background-color: #EEEEEE;
+	background-image: url(images/small.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+td {
+	font-size: 12px;
+	text-align: center;
+}
+/*.SortDescCss {
+	background-image: url(images/desc.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.SortAscCss {
+	background-image: url(images/asc.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}*/
+</style>
+</head>
+<body>
+<table id="tb1">
+	<tr>
+		<th>1</th>
+		<th>2</th>
+		<th>32</th>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+		<td>8</td>
+		<td>8</td>
+		<td>98</td>
+		<td>82</td>
+	</tr>
+		<tr>
+		<td>5</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+		<td>8</td>
+		<td>8</td>
+		<td>98</td>
+		<td>82</td>
+	</tr>
+</table>
+<script type="text/javascript">
+new TableSorter("tb1"); 
+new TableSorter("tb2", 0, 2 , 5, 6); 
+new TableSorter("tb3").OnSorted = function(c, t){ 
+	alert("table is sorted by " + c.innerHTML + " " + (t ? "Asc" : "Desc")); 
+} 
+</script>
+
+</body>
+</html>

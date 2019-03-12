@@ -1,0 +1,4 @@
+1.运行“Registry Entry”中的注册表，导入。
+2.运行“Install”里的TinyPNG-v1.1.exe安装
+3.把“For PSCC 2014”里的文件覆盖到PS CC安装目录下，替换掉原有文件
+by xdowns.com绿盟 

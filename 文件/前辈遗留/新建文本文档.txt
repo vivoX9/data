@@ -1,0 +1,62 @@
+{
+	"billItems": [{
+		"billAttach": [{
+			"url": "8aad8ec362ba8ee50162bdd32b2a0042",
+			"name": "附件1[CTLDYT0029-C001-L01 陵城公交  第十二期租金收据 001-2017-11-00500.pdf]"
+		}],
+		"billType": "增值税普通发票",
+		"billOpenDate": "2017-07-25",
+		"billAmount": "2514000.00"
+	}, {
+		"billAttach": [],
+		"billType": "收据",
+		"billOpenDate": "2017-07-25",
+		"billAmount": "2304500.00"
+	}, {
+		"billAttach": [{
+			"url": "8aad8ec362ba8ee50162bdd363dd0043",
+			"name": "附件1[CTLDYT0010-C001-L02 广州新穗巴士02  第十七期租金收据 001-2017-11-01050.pdf]"
+		}],
+		"billType": "增值税普通发票",
+		"billOpenDate": "2017-08-20",
+		"billAmount": "200770.83"
+	}, {
+		"billAttach": [],
+		"billType": "收据",
+		"billOpenDate": "2017-08-20",
+		"billAmount": "1651546.35"
+	}, {
+		"billAttach": [],
+		"billType": "增值税普通发票",
+		"billOpenDate": "2017-09-20",
+		"billAmount": "192857.17"
+	}, {
+		"billAttach": [],
+		"billType": "收据",
+		"billOpenDate": "2017-09-20",
+		"billAmount": "1659460.01"
+	}, {
+		"billAttach": [],
+		"billType": "增值税普通发票",
+		"billOpenDate": "2017-10-20",
+		"billAmount": "184905.59"
+	}, {
+		"billAttach": [],
+		"billType": "收据",
+		"billOpenDate": "2017-10-20",
+		"billAmount": "1667411.59"
+	}, {
+		"billAttach": [],
+		"billType": "增值税普通发票",
+		"billOpenDate": "2017-11-20",
+		"billAmount": "176915.91"
+	}, {
+		"billAttach": [],
+		"billType": "收据",
+		"billOpenDate": "2017-11-20",
+		"billAmount": "1675401.27"
+	}],
+	"total": 51
+}, "code": 2000
+}
+}

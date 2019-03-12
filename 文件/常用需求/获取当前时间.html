@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+	</head>
+	<body>
+		<div class="time"></div>
+	</body>
+	<script type="text/javascript">
+		function time(){
+			var times=new Date();
+			var years=times.getFullYear().toString()
+			var mons=(times.getMonth()+1).toString()
+			var days=times.getDate().toString()
+			var hours=times.getHours().toString()
+			var mins=times.getMinutes().toString().toString()
+			var secs=times.getSeconds().toString()
+			var timeNew=years+"年"+mons+"月"+days+"日"+hours+"时"+mins+"分"+secs+"秒"
+			document.querySelector(".time").innerHTML=timeNew
+		}
+		time();
+		setInterval(time,1000)
+	</script>
+</html>

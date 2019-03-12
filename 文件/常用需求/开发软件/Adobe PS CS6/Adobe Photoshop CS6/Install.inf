@@ -1,0 +1,1185 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=kajaa@eastday.com, 2002
+
+[DefaultInstall]
+; DelReg=3_DelReg
+AddReg=3_AddReg
+
+[3_DelReg]
+
+[3_AddReg]
+
+hkcr,".8ba",,,"Photoshop.PlugIn"
+
+hkcr,".8bc",,,"Photoshop.PlugIn"
+
+hkcr,".8be",,,"Photoshop.PlugIn"
+
+hkcr,".8bf",,,"Photoshop.PlugIn"
+
+hkcr,".8bi",,,"Photoshop.PlugIn"
+
+hkcr,".8bp",,,"Photoshop.PlugIn"
+
+hkcr,".8bs",,,"Photoshop.PlugIn"
+
+hkcr,".8bx",,,"Photoshop.PlugIn"
+
+hkcr,".8by",,,"Photoshop.PlugIn"
+
+hkcr,".8li",,,"Photoshop.PlugIn"
+
+hkcr,".abr",,,"Photoshop.BrushesFile"
+
+hkcr,".acb",,,"Photoshop.ColorBooks"
+
+hkcr,".acf",,,"Photoshop.CustomFilterKernel"
+
+hkcr,".aco",,,"Photoshop.SwatchesFile"
+
+hkcr,".act",,,"Photoshop.ColorTableFile"
+
+hkcr,".acv",,,"Photoshop.CurvesFile"
+
+hkcr,".ado",,,"Photoshop.DuotoneSettingsFile"
+
+hkcr,".ahs",,,"Photoshop.HalftoneScreens"
+
+hkcr,".ahu",,,"Photoshop.HueSatFile"
+
+hkcr,".alv",,,"Photoshop.LevelsFile"
+
+hkcr,".amp",,,"Photoshop.ArbitraryMapFile"
+
+hkcr,".ams",,,"Photoshop.MonitorSetupFile"
+
+hkcr,".api",,,"Photoshop.PrintingInksFile"
+
+hkcr,".apl",,,"Photoshop.AdobePlugIn"
+
+hkcr,".ase",,,"Photoshop.ExchangeableSwatchFile.60"
+
+hkcr,".asl",,,"Photoshop.Styles"
+
+hkcr,".asp\DefaultIcon",,,"%01%\Photoshop.exe,15"
+
+hkcr,".asr\DefaultIcon",,,"%01%\Photoshop.exe,41"
+
+hkcr,".ast",,,"Photoshop.SepTablesFile"
+
+hkcr,".asv",,,"Photoshop.ASVColAdjFile"
+
+hkcr,".atf",,,"Photoshop.TransferFunctionsFile"
+
+hkcr,".atn",,,"Photoshop.ActionsFile"
+
+hkcr,".ava",,,"Photoshop.VariationsFile"
+
+hkcr,".axt",,,"Photoshop.AXTAdjColFile"
+
+hkcr,".blw",,,"Photoshop.BWPresets"
+
+
+hkcr,".cha",,,"Photoshop.CHAFile"
+
+hkcr,".cin",,,"Photoshop.CINFile.60"
+
+hkcr,".cr2",,,"Photoshop.CameraRawFileCanon2.60"
+
+hkcr,".crw",,,"Photoshop.CameraRawFileCanon.60"
+
+hkcr,".csh",,,"Photoshop.CustomShapes"
+
+hkcr,".dcp",,,"Photoshop.DNGCameraProfile.60"
+
+hkcr,".dcpr",,,"Photoshop.DNGCameraProfileRecipe.60"
+
+hkcr,".dcr",,,"Photoshop.CameraRawFileKodak.60"
+
+hkcr,".dng",,,"Photoshop.CameraRawFileDigital.60"
+
+hkcr,".eap",,,"Photoshop.ExposureAdjustment"
+
+hkcr,".erf",,,"Photoshop.CameraRawFileEpson.60"
+
+hkcr,".exr",,,"Photoshop.OpenEXRFile.60"
+
+hkcr,".ffo",,,"Photoshop.FileInfo"
+
+hkcr,".fxg",,,"Photoshop.FXGFileType.60"
+
+hkcr,".grd",,,"Photoshop.Gradients"
+
+hkcr,".hdr",,,"Photoshop.PortableBitMapFile.60"
+
+hkcr,".iros",,,"Photoshop.IRSettings"
+
+hkcr,".irs",,,"Photoshop.IRSettings"
+
+hkcr,".isa",,,"Photoshop.IRActions"
+
+hkcr,".kys",,,"Photoshop.KYSFile.60"
+
+hkcr,".mnu",,,"Photoshop.MenuCustomizationFile.60"
+
+hkcr,".mos",,,"Photoshop.CameraRawFileLeaf.60"
+
+hkcr,".mrw",,,"Photoshop.CameraRawFileMinolta.60"
+
+hkcr,".nef",,,"Photoshop.CameraRawFileNikon.60"
+
+hkcr,".orf",,,"Photoshop.CameraRawFileOlympus.60"
+
+hkcr,".pat",,,"Photoshop.Patterns"
+
+hkcr,".pbm",,,"Photoshop.RadianceFile.60"
+
+hkcr,".pcd",,,"Photoshop.PCDFile.60"
+
+hkcr,".pcx",,,"Photoshop.PCXFile.60"
+
+hkcr,".pdd",,,"Photoshop.PDDFile.60"
+
+hkcr,".pdp",,,"Photoshop.PDPFile.60"
+
+hkcr,".pef",,,"Photoshop.CameraRawFilePentax.60"
+
+hkcr,".pmg\DefaultIcon",,,"%01%\Photoshop.exe,45"
+
+hkcr,".psb",,,"Photoshop.PSBFile.60"
+
+hkcr,".psd",,,"Photoshop.Image.60"
+
+hkcr,".psf",,,"Photoshop.ProofSetup"
+
+hkcr,".psp",,,"Photoshop.PreferencesFile"
+
+hkcr,".pxr",,,"Photoshop.PXRFile.60"
+
+hkcr,".raf",,,"Photoshop.CameraRawFileFujifilm.60"
+
+hkcr,".raw",,,"Photoshop.RAWFile.60"
+
+hkcr,".sct",,,"Photoshop.SCTFile.60"
+
+hkcr,".shc",,,"Photoshop.ShapeCurves"
+
+hkcr,".shh",,,"Photoshop.SHHFile.60"
+
+hkcr,".srf",,,"Photoshop.CameraRawFileSony.60"
+
+hkcr,".sta",,,"Photoshop.STAFile.60"
+
+hkcr,".tga",,,"Photoshop.TGAFile.60"
+
+hkcr,".tif",,,"Photoshop.TIFFFile.60"
+
+hkcr,".tiff",,,"Photoshop.TIFFFile.60"
+
+hkcr,".tpl",,,"Photoshop.ToolPresets"
+
+hkcr,".x3f",,,"Photoshop.CameraRawFileFoveon.60"
+
+hkcr,"Applications\Photoshop.exe\shell","FriendlyCache",,"Adobe Photoshop"
+
+hkcr,"Applications\Photoshop.exe\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Applications\Photoshop.exe\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Installer\Features\332EAC50703965543A8554A7944D2D86","Adobe_PDFSettings",,""
+hkcr,"Installer\Features\332EAC50703965543A8554A7944D2D86","ExtrasFolderContent",,""
+hkcr,"Installer\Features\332EAC50703965543A8554A7944D2D86","SettingsFolderContent",,""
+
+hkcr,"Installer\Features\DBDB1253354DF9D5AA55447BD5126492","Application",,""
+hkcr,"Installer\Features\DBDB1253354DF9D5AA55447BD5126492","ProgramShortcut",,""
+
+hkcr,"Installer\Features\FB540C64F3B24CB4E8C4000EFCB89DBD","Management",,""
+hkcr,"Installer\Features\FB540C64F3B24CB4E8C4000EFCB89DBD","Runtime",,""
+
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","AdvertiseFlags",0x10001,84,01,00,00
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","Assignment",0x10001,01,00,00,00
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","AuthorizedLUAApp",0x10001,00,00,00,00
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","Clients",0x10000,":"
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","DeploymentFlags",0x10001,03,00,00,00
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","InstanceType",0x10001,00,00,00,00
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","Language",0x10001,09,04,00,00
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","PackageCode",,"BB03DDFD060A9D5479721C287EB81BE6"
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","ProductName",,"PDF Settings CS5"
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86","Version",0x10001,00,00,00,0a
+
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86\SourceList","LastUsedSource",0x20000,"????ùô∏“???û≠µ}ù†ì©å›ﬁÙ≥∂Ω°?îü¨úúß™ô?ò€·ÍÇ¶\"
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86\SourceList","PackageName",,"AdobePDFSettings10-ja_JP.msi"
+
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86\SourceList\Media","1",,"DISK1;1"
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86\SourceList\Media","DiskPrompt",,"[1]"
+
+hkcr,"Installer\Products\332EAC50703965543A8554A7944D2D86\SourceList\Net","1",0x20000,"??ùô∏“???û≠µ}ù†ì©å›ﬁÙ≥∂Ω°?îü¨úúß™ô?ò€·ÍÇ¶\"
+
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","AdvertiseFlags",0x10001,84,01,00,00
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","Assignment",0x10001,01,00,00,00
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","AuthorizedLUAApp",0x10001,00,00,00,00
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","Clients",0x10000,":","?"
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","DeploymentFlags",0x10001,03,00,00,00
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","InstanceType",0x10001,00,00,00,00
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","Language",0x10001,09,04,00,00
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","PackageCode",,"DBDB1253354DF9D5AA55447BD5126492"
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","ProductName",,"Adobe Community Help"
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492","Version",0x10001,d4,03,04,03
+
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492\SourceList","LastUsedSource",0x20000,"???‡®î≤´@≤∑ú±î≤åﬁûî?¨ã¬≈ùÜëTåŸî†√ïÇë[◊‘?Á˝√\"
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492\SourceList","PackageName",,"setup.msi"
+
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492\SourceList\Media","1",,";"
+
+hkcr,"Installer\Products\DBDB1253354DF9D5AA55447BD5126492\SourceList\Net","1",0x20000,"?‡®î≤´@≤∑ú±î≤åﬁûî?¨ã¬≈ùÜëTåŸî†√ïÇë[◊‘?Á˝√\"
+
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","AdvertiseFlags",0x10001,84,01,00,00
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","Assignment",0x10001,01,00,00,00
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","AuthorizedLUAApp",0x10001,00,00,00,00
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","Clients",0x10000,":","?"
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","DeploymentFlags",0x10001,03,00,00,00
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","InstanceType",0x10001,00,00,00,00
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","Language",0x10001,09,04,00,00
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","PackageCode",,"4A1208E60FCBE3B48BBDDE269EF18371"
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","ProductName",,"Adobe AIR"
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD","Version",0x10001,01,00,05,02
+
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD\SourceList","LastUsedSource",0x20000,"???‡®î≤´@≤∑ú±î≤åﬁûî?¨ã¬≈ùÜëTåŸî†√?Ñv??Á˝√\"
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD\SourceList","PackageName",,"setup.msi"
+
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD\SourceList\Media","1",,";"
+
+hkcr,"Installer\Products\FB540C64F3B24CB4E8C4000EFCB89DBD\SourceList\Net","1",0x20000,"?‡®î≤´@≤∑ú±î≤åﬁûî?¨ã¬≈ùÜëTåŸî†√?Ñv??Á˝√\"
+
+hkcr,"Installer\UpgradeCodes\01F2789AED1AB76FF257F1622B9AE88F","DBDB1253354DF9D5AA55447BD5126492",,""
+
+hkcr,"Installer\UpgradeCodes\1E8643B7E6C892B4595C2809C646BE93","332EAC50703965543A8554A7944D2D86",,""
+
+hkcr,"Installer\UpgradeCodes\5D029AD8C14C0E24FB1378AB9489E44E","FB540C64F3B24CB4E8C4000EFCB89DBD",,""
+
+hkcr,"MIME\Database\Content Type\application/x-bridge-url","Extension",,".adobebridge"
+
+hkcr,"Photoshop.ActionDescriptor",,,"Photoshop ActionDescriptor"
+
+hkcr,"Photoshop.ActionDescriptor\CLSID",,,"{3fcb46f2-54ec-4b8b-a61c-d9183f683e13}"
+
+hkcr,"Photoshop.ActionDescriptor\CurVer",,,"Photoshop.ActionDescriptor.60"
+
+hkcr,"Photoshop.ActionDescriptor.60",,,"Photoshop ActionDescriptor"
+
+hkcr,"Photoshop.ActionDescriptor.60\CLSID",,,"{3fcb46f2-54ec-4b8b-a61c-d9183f683e13}"
+
+hkcr,"Photoshop.ActionList",,,"Photoshop ActionList"
+
+hkcr,"Photoshop.ActionList\CLSID",,,"{6caafe4a-b1fb-4c69-a085-7f5b1084c7a4}"
+
+hkcr,"Photoshop.ActionList\CurVer",,,"Photoshop.ActionList.60"
+
+hkcr,"Photoshop.ActionList.60",,,"Photoshop ActionList"
+
+hkcr,"Photoshop.ActionList.60\CLSID",,,"{6caafe4a-b1fb-4c69-a085-7f5b1084c7a4}"
+
+hkcr,"Photoshop.ActionReference",,,"Photoshop ActionReference"
+
+hkcr,"Photoshop.ActionReference\CLSID",,,"{3ee863ad-b485-40d8-be77-615930a8e6de}"
+
+hkcr,"Photoshop.ActionReference\CurVer",,,"Photoshop.ActionReference.60"
+
+hkcr,"Photoshop.ActionReference.60",,,"Photoshop ActionReference"
+
+hkcr,"Photoshop.ActionReference.60\CLSID",,,"{3ee863ad-b485-40d8-be77-615930a8e6de}"
+
+hkcr,"Photoshop.ActionsFile\DefaultIcon",,,"%01%\Photoshop.exe,31"
+
+hkcr,"Photoshop.ActionsFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.AdobePlugin\DefaultIcon",,,"%01%\Photoshop.exe,2"
+
+hkcr,"Photoshop.AdobePlugin\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.Application",,,"Photoshop Application"
+
+hkcr,"Photoshop.Application\CLSID",,,"{116ee066-135e-4f63-8d0e-78f62705fbfc}"
+
+hkcr,"Photoshop.Application\CurVer",,,"Photoshop.Application.60"
+
+hkcr,"Photoshop.Application.60",,,"Photoshop Application"
+
+hkcr,"Photoshop.Application.60\CLSID",,,"{116ee066-135e-4f63-8d0e-78f62705fbfc}"
+
+hkcr,"Photoshop.Application.60.1",,,"Photoshop CS5 Application"
+
+hkcr,"Photoshop.Application.60.1\CLSID",,,"{6DECC242-87EF-11cf-86B4-444553540000}"
+
+hkcr,"Photoshop.ArbitraryMapFile\DefaultIcon",,,"%01%\Photoshop.exe,13"
+
+hkcr,"Photoshop.ArbitraryMapFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.ASVColAdjFile\DefaultIcon",,,"%01%\Photoshop.exe,83"
+
+hkcr,"Photoshop.ASVColAdjFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.AXTAdjColFile\DefaultIcon",,,"%01%\Photoshop.exe,32"
+
+hkcr,"Photoshop.AXTAdjColFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.BatchOptions",,,"Photoshop BatchOptions"
+
+hkcr,"Photoshop.BatchOptions\CLSID",,,"{e3191410-baba-4630-a74b-6098c6fb3d25}"
+
+hkcr,"Photoshop.BatchOptions\CurVer",,,"Photoshop.BatchOptions.60"
+
+hkcr,"Photoshop.BatchOptions.60",,,"Photoshop BatchOptions"
+
+hkcr,"Photoshop.BatchOptions.60\CLSID",,,"{e3191410-baba-4630-a74b-6098c6fb3d25}"
+
+hkcr,"Photoshop.BitmapConversionOptions",,,"Photoshop BitmapConversionOptions"
+
+hkcr,"Photoshop.BitmapConversionOptions\CLSID",,,"{9d554cd5-4f64-4504-a488-9471af3e9b82}"
+
+hkcr,"Photoshop.BitmapConversionOptions\CurVer",,,"Photoshop.BitmapConversionOptions.60"
+
+hkcr,"Photoshop.BitmapConversionOptions.60",,,"Photoshop BitmapConversionOptions"
+
+hkcr,"Photoshop.BitmapConversionOptions.60\CLSID",,,"{9d554cd5-4f64-4504-a488-9471af3e9b82}"
+
+hkcr,"Photoshop.BMPFile.60\DefaultIcon",,,"%01%\Photoshop.exe,58"
+
+hkcr,"Photoshop.BMPFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.BMPFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.BMPFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.BMPFile.60\shell\print\command",,,"""%01%\Photoshop.exe"" -p ""%%1"""
+
+hkcr,"Photoshop.BMPSaveOptions",,,"Photoshop BMPSaveOptions"
+
+hkcr,"Photoshop.BMPSaveOptions\CLSID",,,"{6a416e80-6d28-4d72-9a9c-2a7ce2dc2c55}"
+
+hkcr,"Photoshop.BMPSaveOptions\CurVer",,,"Photoshop.BMPSaveOptions.60"
+
+hkcr,"Photoshop.BMPSaveOptions.60",,,"Photoshop BMPSaveOptions"
+
+hkcr,"Photoshop.BMPSaveOptions.60\CLSID",,,"{6a416e80-6d28-4d72-9a9c-2a7ce2dc2c55}"
+
+hkcr,"Photoshop.BrushesFile\DefaultIcon",,,"%01%\Photoshop.exe,28"
+
+hkcr,"Photoshop.BrushesFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.BWPresets\DefaultIcon",,,"%01%\Photoshop.exe,82"
+
+hkcr,"Photoshop.CameraRawFileCanon.60\DefaultIcon",,,"%01%\Photoshop.exe,65"
+
+hkcr,"Photoshop.CameraRawFileCanon.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileCanon.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileCanon.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileCanon2.60\DefaultIcon",,,"%01%\Photoshop.exe,64"
+
+hkcr,"Photoshop.CameraRawFileCanon2.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileCanon2.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileCanon2.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileDigital.60\DefaultIcon",,,"%01%\Photoshop.exe,67"
+
+hkcr,"Photoshop.CameraRawFileDigital.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileDigital.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileDigital.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileEpson.60\DefaultIcon",,,"%01%\Photoshop.exe,68"
+
+hkcr,"Photoshop.CameraRawFileEpson.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileEpson.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileEpson.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileFoveon.60\DefaultIcon",,,"%01%\Photoshop.exe,76"
+
+hkcr,"Photoshop.CameraRawFileFoveon.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileFoveon.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileFoveon.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileFujifilm.60\DefaultIcon",,,"%01%\Photoshop.exe,74"
+
+hkcr,"Photoshop.CameraRawFileFujifilm.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileFujifilm.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileFujifilm.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileKodak.60\DefaultIcon",,,"%01%\Photoshop.exe,66"
+
+hkcr,"Photoshop.CameraRawFileKodak.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileKodak.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileKodak.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileLeaf.60\DefaultIcon",,,"%01%\Photoshop.exe,69"
+
+hkcr,"Photoshop.CameraRawFileLeaf.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileLeaf.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileLeaf.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileMinolta.60\DefaultIcon",,,"%01%\Photoshop.exe,70"
+
+hkcr,"Photoshop.CameraRawFileMinolta.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileMinolta.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileMinolta.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileNikon.60\DefaultIcon",,,"%01%\Photoshop.exe,71"
+
+hkcr,"Photoshop.CameraRawFileNikon.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileNikon.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileNikon.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileOlympus.60\DefaultIcon",,,"%01%\Photoshop.exe,72"
+
+hkcr,"Photoshop.CameraRawFileOlympus.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileOlympus.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileOlympus.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFilePentax.60\DefaultIcon",,,"%01%\Photoshop.exe,73"
+
+hkcr,"Photoshop.CameraRawFilePentax.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFilePentax.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFilePentax.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileSony.60\DefaultIcon",,,"%01%\Photoshop.exe,75"
+
+hkcr,"Photoshop.CameraRawFileSony.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileSony.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRawFileSony.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CameraRAWOpenOptions",,,"Photoshop CameraRAWOpenOptions"
+
+hkcr,"Photoshop.CameraRAWOpenOptions\CLSID",,,"{11be296b-666e-402d-b66f-b5a199b8766d}"
+
+hkcr,"Photoshop.CameraRAWOpenOptions\CurVer",,,"Photoshop.CameraRAWOpenOptions.60"
+
+hkcr,"Photoshop.CameraRAWOpenOptions.60",,,"Photoshop CameraRAWOpenOptions"
+
+hkcr,"Photoshop.CameraRAWOpenOptions.60\CLSID",,,"{11be296b-666e-402d-b66f-b5a199b8766d}"
+
+hkcr,"Photoshop.CHAFile\DefaultIcon",,,"%01%\Photoshop.exe,39"
+
+hkcr,"Photoshop.CHAFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CINFile.60\DefaultIcon",,,"%01%\Photoshop.exe,58"
+
+hkcr,"Photoshop.CINFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CINFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CINFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CMYKColor",,,"Photoshop CMYKColor"
+
+hkcr,"Photoshop.CMYKColor\CLSID",,,"{bc38351b-c9ab-4313-98c3-8d8574bcb70a}"
+
+hkcr,"Photoshop.CMYKColor\CurVer",,,"Photoshop.CMYKColor.60"
+
+hkcr,"Photoshop.CMYKColor.60",,,"Photoshop CMYKColor"
+
+hkcr,"Photoshop.CMYKColor.60\CLSID",,,"{bc38351b-c9ab-4313-98c3-8d8574bcb70a}"
+
+hkcr,"Photoshop.ColorBooks\DefaultIcon",,,"%01%\Photoshop.exe,49"
+
+hkcr,"Photoshop.ColorTableFile\DefaultIcon",,,"%01%\Photoshop.exe,12"
+
+hkcr,"Photoshop.ColorTableFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.ContactSheetOptions",,,"Photoshop ContactSheetOptions"
+
+hkcr,"Photoshop.ContactSheetOptions\CLSID",,,"{df177c47-ccc9-4a4d-b8b2-e95cb8ad2dca}"
+
+hkcr,"Photoshop.ContactSheetOptions\CurVer",,,"Photoshop.ContactSheetOptions.60"
+
+hkcr,"Photoshop.ContactSheetOptions.60",,,"Photoshop ContactSheetOptions"
+
+hkcr,"Photoshop.ContactSheetOptions.60\CLSID",,,"{df177c47-ccc9-4a4d-b8b2-e95cb8ad2dca}"
+
+hkcr,"Photoshop.CurvesFile\DefaultIcon",,,"%01%\Photoshop.exe,23"
+
+hkcr,"Photoshop.CurvesFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CustomFilterKernel\DefaultIcon",,,"%01%\Photoshop.exe,14"
+
+hkcr,"Photoshop.CustomFilterKernel\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.CustomShapes\DefaultIcon",,,"%01%\Photoshop.exe,7"
+
+hkcr,"Photoshop.CustomShapes\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.DCS1_SaveOptions",,,"Photoshop DCS1_SaveOptions"
+
+hkcr,"Photoshop.DCS1_SaveOptions\CLSID",,,"{f6353a77-afba-43e6-b4ff-7e5d0f10a5a2}"
+
+hkcr,"Photoshop.DCS1_SaveOptions\CurVer",,,"Photoshop.DCS1_SaveOptions.60"
+
+hkcr,"Photoshop.DCS1_SaveOptions.60",,,"Photoshop DCS1_SaveOptions"
+
+hkcr,"Photoshop.DCS1_SaveOptions.60\CLSID",,,"{f6353a77-afba-43e6-b4ff-7e5d0f10a5a2}"
+
+hkcr,"Photoshop.DCS2_SaveOptions",,,"Photoshop DCS2_SaveOptions"
+
+hkcr,"Photoshop.DCS2_SaveOptions\CLSID",,,"{3c500210-be1a-4723-a2c4-9e8d73be4fd9}"
+
+hkcr,"Photoshop.DCS2_SaveOptions\CurVer",,,"Photoshop.DCS2_SaveOptions.60"
+
+hkcr,"Photoshop.DCS2_SaveOptions.60",,,"Photoshop DCS2_SaveOptions"
+
+hkcr,"Photoshop.DCS2_SaveOptions.60\CLSID",,,"{3c500210-be1a-4723-a2c4-9e8d73be4fd9}"
+
+hkcr,"Photoshop.DICOMOpenOptions",,,"Photoshop DICOMOpenOptions"
+
+hkcr,"Photoshop.DICOMOpenOptions\CLSID",,,"{3f3ceb0b-6c59-49e2-bc9d-6246a786c289}"
+
+hkcr,"Photoshop.DICOMOpenOptions\CurVer",,,"Photoshop.DICOMOpenOptions.60"
+
+hkcr,"Photoshop.DICOMOpenOptions.60",,,"Photoshop DICOMOpenOptions"
+
+hkcr,"Photoshop.DICOMOpenOptions.60\CLSID",,,"{3f3ceb0b-6c59-49e2-bc9d-6246a786c289}"
+
+hkcr,"Photoshop.DNGCameraProfile.60\DefaultIcon",,,"%01%\Photoshop.exe,86"
+
+hkcr,"Photoshop.DNGCameraProfileRecipe.60\DefaultIcon",,,"%01%\Photoshop.exe,87"
+
+hkcr,"Photoshop.DuotoneSettingsFile\DefaultIcon",,,"%01%\Photoshop.exe,26"
+
+hkcr,"Photoshop.DuotoneSettingsFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.EPSFile.60\DefaultIcon",,,"%01%\Photoshop.exe,11"
+
+hkcr,"Photoshop.EPSOpenOptions",,,"Photoshop EPSOpenOptions"
+
+hkcr,"Photoshop.EPSOpenOptions\CLSID",,,"{8ff7e645-1d4d-4b3a-92dc-c9cba44bdc29}"
+
+hkcr,"Photoshop.EPSOpenOptions\CurVer",,,"Photoshop.EPSOpenOptions.60"
+
+hkcr,"Photoshop.EPSOpenOptions.60",,,"Photoshop EPSOpenOptions"
+
+hkcr,"Photoshop.EPSOpenOptions.60\CLSID",,,"{8ff7e645-1d4d-4b3a-92dc-c9cba44bdc29}"
+
+hkcr,"Photoshop.EPSSaveOptions",,,"Photoshop EPSSaveOptions"
+
+hkcr,"Photoshop.EPSSaveOptions\CLSID",,,"{0445581f-68a0-41dc-9155-cb1e5b101421}"
+
+hkcr,"Photoshop.EPSSaveOptions\CurVer",,,"Photoshop.EPSSaveOptions.60"
+
+hkcr,"Photoshop.EPSSaveOptions.60",,,"Photoshop EPSSaveOptions"
+
+hkcr,"Photoshop.EPSSaveOptions.60\CLSID",,,"{0445581f-68a0-41dc-9155-cb1e5b101421}"
+
+hkcr,"Photoshop.ExchangeableSwatchFile.60\DefaultIcon",,,"%01%\Photoshop.exe,77"
+
+hkcr,"Photoshop.ExchangeableSwatchFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.ExchangeableSwatchFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.ExchangeableSwatchFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.ExportOptionsIllustrator",,,"Photoshop ExportOptionsIllustrator"
+
+hkcr,"Photoshop.ExportOptionsIllustrator\CLSID",,,"{6fb8b7a9-c2ca-41f4-85e8-cee3f6ab99bf}"
+
+hkcr,"Photoshop.ExportOptionsIllustrator\CurVer",,,"Photoshop.ExportOptionsIllustrator.60"
+
+hkcr,"Photoshop.ExportOptionsIllustrator.60",,,"Photoshop ExportOptionsIllustrator"
+
+hkcr,"Photoshop.ExportOptionsIllustrator.60\CLSID",,,"{6fb8b7a9-c2ca-41f4-85e8-cee3f6ab99bf}"
+
+hkcr,"Photoshop.ExportOptionsSaveForWeb",,,"Photoshop ExportOptionsSaveForWeb"
+
+hkcr,"Photoshop.ExportOptionsSaveForWeb\CLSID",,,"{ead8e396-a283-47f9-8d80-17ba2c84db54}"
+
+hkcr,"Photoshop.ExportOptionsSaveForWeb\CurVer",,,"Photoshop.ExportOptionsSaveForWeb.60"
+
+hkcr,"Photoshop.ExportOptionsSaveForWeb.60",,,"Photoshop ExportOptionsSaveForWeb"
+
+hkcr,"Photoshop.ExportOptionsSaveForWeb.60\CLSID",,,"{ead8e396-a283-47f9-8d80-17ba2c84db54}"
+
+hkcr,"Photoshop.ExposureAdjustment\DefaultIcon",,,"%01%\Photoshop.exe,84"
+
+hkcr,"Photoshop.FileInfo\DefaultIcon",,,"%01%\Photoshop.exe,35"
+
+hkcr,"Photoshop.FileInfo\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.FXGFileType.60\DefaultIcon",,,"%01%\Photoshop.exe,85"
+
+hkcr,"Photoshop.GalleryBannerOptions",,,"Photoshop GalleryBannerOptions"
+
+hkcr,"Photoshop.GalleryBannerOptions\CLSID",,,"{e9c0d4f9-d76c-40b2-8f43-4750319d5d24}"
+
+hkcr,"Photoshop.GalleryBannerOptions\CurVer",,,"Photoshop.GalleryBannerOptions.60"
+
+hkcr,"Photoshop.GalleryBannerOptions.60",,,"Photoshop GalleryBannerOptions"
+
+hkcr,"Photoshop.GalleryBannerOptions.60\CLSID",,,"{e9c0d4f9-d76c-40b2-8f43-4750319d5d24}"
+
+hkcr,"Photoshop.GalleryCustomColorOptions",,,"Photoshop GalleryCustomColorOptions"
+
+hkcr,"Photoshop.GalleryCustomColorOptions\CLSID",,,"{bc8e089f-46ec-478b-b001-04a051b10a82}"
+
+hkcr,"Photoshop.GalleryCustomColorOptions\CurVer",,,"Photoshop.GalleryCustomColorOptions.60"
+
+hkcr,"Photoshop.GalleryCustomColorOptions.60",,,"Photoshop GalleryCustomColorOptions"
+
+hkcr,"Photoshop.GalleryCustomColorOptions.60\CLSID",,,"{bc8e089f-46ec-478b-b001-04a051b10a82}"
+
+hkcr,"Photoshop.GalleryImagesOptions",,,"Photoshop GalleryImagesOptions"
+
+hkcr,"Photoshop.GalleryImagesOptions\CLSID",,,"{24c3a503-24b2-42bc-be00-e7bbc669a750}"
+
+hkcr,"Photoshop.GalleryImagesOptions\CurVer",,,"Photoshop.GalleryImagesOptions.60"
+
+hkcr,"Photoshop.GalleryImagesOptions.60",,,"Photoshop GalleryImagesOptions"
+
+hkcr,"Photoshop.GalleryImagesOptions.60\CLSID",,,"{24c3a503-24b2-42bc-be00-e7bbc669a750}"
+
+hkcr,"Photoshop.GalleryOptions",,,"Photoshop GalleryOptions"
+
+hkcr,"Photoshop.GalleryOptions\CLSID",,,"{4d6bf012-6c22-4243-ba19-146c247c952c}"
+
+hkcr,"Photoshop.GalleryOptions\CurVer",,,"Photoshop.GalleryOptions.60"
+
+hkcr,"Photoshop.GalleryOptions.60",,,"Photoshop GalleryOptions"
+
+hkcr,"Photoshop.GalleryOptions.60\CLSID",,,"{4d6bf012-6c22-4243-ba19-146c247c952c}"
+
+hkcr,"Photoshop.GallerySecurityOptions",,,"Photoshop GallerySecurityOptions"
+
+hkcr,"Photoshop.GallerySecurityOptions\CLSID",,,"{1602a8d3-1d32-4399-a047-4f019d3c6e19}"
+
+hkcr,"Photoshop.GallerySecurityOptions\CurVer",,,"Photoshop.GallerySecurityOptions.60"
+
+hkcr,"Photoshop.GallerySecurityOptions.60",,,"Photoshop GallerySecurityOptions"
+
+hkcr,"Photoshop.GallerySecurityOptions.60\CLSID",,,"{1602a8d3-1d32-4399-a047-4f019d3c6e19}"
+
+hkcr,"Photoshop.GalleryThumbnailOptions",,,"Photoshop GalleryThumbnailOptions"
+
+hkcr,"Photoshop.GalleryThumbnailOptions\CLSID",,,"{990555c7-b8fd-4465-b03d-5d2e184d1ca0}"
+
+hkcr,"Photoshop.GalleryThumbnailOptions\CurVer",,,"Photoshop.GalleryThumbnailOptions.60"
+
+hkcr,"Photoshop.GalleryThumbnailOptions.60",,,"Photoshop GalleryThumbnailOptions"
+
+hkcr,"Photoshop.GalleryThumbnailOptions.60\CLSID",,,"{990555c7-b8fd-4465-b03d-5d2e184d1ca0}"
+
+hkcr,"Photoshop.GIFFile.60\DefaultIcon",,,"%01%\Photoshop.exe,6"
+
+hkcr,"Photoshop.GIFSaveOptions",,,"Photoshop GIFSaveOptions"
+
+hkcr,"Photoshop.GIFSaveOptions\CLSID",,,"{57603563-08ee-4522-bedb-0ccd6e862f20}"
+
+hkcr,"Photoshop.GIFSaveOptions\CurVer",,,"Photoshop.GIFSaveOptions.60"
+
+hkcr,"Photoshop.GIFSaveOptions.60",,,"Photoshop GIFSaveOptions"
+
+hkcr,"Photoshop.GIFSaveOptions.60\CLSID",,,"{57603563-08ee-4522-bedb-0ccd6e862f20}"
+
+hkcr,"Photoshop.Gradients\DefaultIcon",,,"%01%\Photoshop.exe,38"
+
+hkcr,"Photoshop.Gradients\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.GrayColor",,,"Photoshop GrayColor"
+
+hkcr,"Photoshop.GrayColor\CLSID",,,"{6fc3b6d3-980d-4f14-b984-503be8c042e8}"
+
+hkcr,"Photoshop.GrayColor\CurVer",,,"Photoshop.GrayColor.60"
+
+hkcr,"Photoshop.GrayColor.60",,,"Photoshop GrayColor"
+
+hkcr,"Photoshop.GrayColor.60\CLSID",,,"{6fc3b6d3-980d-4f14-b984-503be8c042e8}"
+
+hkcr,"Photoshop.HalftoneScreens\DefaultIcon",,,"%01%\Photoshop.exe,17"
+
+hkcr,"Photoshop.HalftoneScreens\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.HSBColor",,,"Photoshop HSBColor"
+
+hkcr,"Photoshop.HSBColor\CLSID",,,"{d6b1e946-9e04-4d6e-a806-dea695e44965}"
+
+hkcr,"Photoshop.HSBColor\CurVer",,,"Photoshop.HSBColor.60"
+
+hkcr,"Photoshop.HSBColor.60",,,"Photoshop HSBColor"
+
+hkcr,"Photoshop.HSBColor.60\CLSID",,,"{d6b1e946-9e04-4d6e-a806-dea695e44965}"
+
+hkcr,"Photoshop.HueSatFile\DefaultIcon",,,"%01%\Photoshop.exe,25"
+
+hkcr,"Photoshop.HueSatFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.Image",,,"Adobe Photoshop Image"
+
+hkcr,"Photoshop.Image\CLSID",,,"{F7988107-6CC2-4B7F-BC78-CC633129AA61}"
+
+hkcr,"Photoshop.Image\CurVer",,,"Photoshop.Image.60"
+
+hkcr,"Photoshop.Image\NotInsertable",,,""
+
+hkcr,"Photoshop.Image.60",,,"Adobe Photoshop Image 12"
+
+hkcr,"Photoshop.Image.60\CLSID",,,"{F7988107-6CC2-4B7F-BC78-CC633129AA61}"
+
+hkcr,"Photoshop.Image.60\DefaultIcon",,,"%01%\Photoshop.exe,1"
+
+hkcr,"Photoshop.Image.60\Insertable",,,""
+
+hkcr,"Photoshop.Image.60\protocol\StdFileEditing\server",,,"%01%\Photoshop.exe"
+
+hkcr,"Photoshop.Image.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.Image.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.Image.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.Image.60\shell\print\command",,,"""%01%\Photoshop.exe"" -p ""%%1"""
+
+hkcr,"Photoshop.IndexedConversionOptions",,,"Photoshop IndexedConversionOptions"
+
+hkcr,"Photoshop.IndexedConversionOptions\CLSID",,,"{f20fcc16-65c4-4a9b-a4e8-a13bc808e594}"
+
+hkcr,"Photoshop.IndexedConversionOptions\CurVer",,,"Photoshop.IndexedConversionOptions.60"
+
+hkcr,"Photoshop.IndexedConversionOptions.60",,,"Photoshop IndexedConversionOptions"
+
+hkcr,"Photoshop.IndexedConversionOptions.60\CLSID",,,"{f20fcc16-65c4-4a9b-a4e8-a13bc808e594}"
+
+hkcr,"Photoshop.IRSettings\DefaultIcon",,,"%01%\Photoshop.exe,7"
+
+hkcr,"Photoshop.JPEGFile.60\DefaultIcon",,,"%01%\Photoshop.exe,30"
+
+hkcr,"Photoshop.JPEGSaveOptions",,,"Photoshop JPEGSaveOptions"
+
+hkcr,"Photoshop.JPEGSaveOptions\CLSID",,,"{d69bd3bc-1964-4033-8bab-206b7ac8a716}"
+
+hkcr,"Photoshop.JPEGSaveOptions\CurVer",,,"Photoshop.JPEGSaveOptions.60"
+
+hkcr,"Photoshop.JPEGSaveOptions.60",,,"Photoshop JPEGSaveOptions"
+
+hkcr,"Photoshop.JPEGSaveOptions.60\CLSID",,,"{d69bd3bc-1964-4033-8bab-206b7ac8a716}"
+
+hkcr,"Photoshop.KYSFile.60\DefaultIcon",,,"%01%\Photoshop.exe,56"
+
+hkcr,"Photoshop.KYSFile.60\shell\open\command",,,"""%01%\Photoshop.exe""  ""%%1"""
+
+hkcr,"Photoshop.LabColor",,,"Photoshop LabColor"
+
+hkcr,"Photoshop.LabColor\CLSID",,,"{239ba448-81db-4b1e-95c1-919a0ae973e7}"
+
+hkcr,"Photoshop.LabColor\CurVer",,,"Photoshop.LabColor.60"
+
+hkcr,"Photoshop.LabColor.60",,,"Photoshop LabColor"
+
+hkcr,"Photoshop.LabColor.60\CLSID",,,"{239ba448-81db-4b1e-95c1-919a0ae973e7}"
+
+hkcr,"Photoshop.LevelsFile\DefaultIcon",,,"%01%\Photoshop.exe,24"
+
+hkcr,"Photoshop.LevelsFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.MenuCustomizationFile.60\DefaultIcon",,,"%01%\Photoshop.exe,63"
+
+hkcr,"Photoshop.MenuCustomizationFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.MenuCustomizationFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.MenuCustomizationFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.MonitorSetupFile\DefaultIcon",,,"%01%\Photoshop.exe,9"
+
+hkcr,"Photoshop.MonitorSetupFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.NoColor",,,"Photoshop NoColor"
+
+hkcr,"Photoshop.NoColor\CLSID",,,"{502a51a0-c84a-4d79-a983-6c70f9304bce}"
+
+hkcr,"Photoshop.NoColor\CurVer",,,"Photoshop.NoColor.60"
+
+hkcr,"Photoshop.NoColor.60",,,"Photoshop NoColor"
+
+hkcr,"Photoshop.NoColor.60\CLSID",,,"{502a51a0-c84a-4d79-a983-6c70f9304bce}"
+
+hkcr,"Photoshop.OpenEXRFile.60\DefaultIcon",,,"%01%\Photoshop.exe,78"
+
+hkcr,"Photoshop.OpenEXRFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.OpenEXRFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.OpenEXRFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PathPointInfo",,,"Photoshop PathPointInfo"
+
+hkcr,"Photoshop.PathPointInfo\CLSID",,,"{4d98b5bc-8e60-4038-9d07-e70769557633}"
+
+hkcr,"Photoshop.PathPointInfo\CurVer",,,"Photoshop.PathPointInfo.60"
+
+hkcr,"Photoshop.PathPointInfo.60",,,"Photoshop PathPointInfo"
+
+hkcr,"Photoshop.PathPointInfo.60\CLSID",,,"{4d98b5bc-8e60-4038-9d07-e70769557633}"
+
+hkcr,"Photoshop.Patterns\DefaultIcon",,,"%01%\Photoshop.exe,42"
+
+hkcr,"Photoshop.Patterns\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PCDFile.60\DefaultIcon",,,"%01%\Photoshop.exe,58"
+
+hkcr,"Photoshop.PCDFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PCDFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PCDFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PCXFile.60\DefaultIcon",,,"%01%\Photoshop.exe,58"
+
+hkcr,"Photoshop.PCXFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PCXFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PCXFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDDFile.60\DefaultIcon",,,"%01%\Photoshop.exe,58"
+
+hkcr,"Photoshop.PDDFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDDFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDDFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDFFile.60\DefaultIcon",,,"%01%\Photoshop.exe,50"
+
+hkcr,"Photoshop.PDFFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDFFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDFFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDFOpenOptions",,,"Photoshop PDFOpenOptions"
+
+hkcr,"Photoshop.PDFOpenOptions\CLSID",,,"{8e35926f-e247-497d-a3f1-e80f366a9517}"
+
+hkcr,"Photoshop.PDFOpenOptions\CurVer",,,"Photoshop.PDFOpenOptions.60"
+
+hkcr,"Photoshop.PDFOpenOptions.60",,,"Photoshop PDFOpenOptions"
+
+hkcr,"Photoshop.PDFOpenOptions.60\CLSID",,,"{8e35926f-e247-497d-a3f1-e80f366a9517}"
+
+hkcr,"Photoshop.PDFSaveOptions",,,"Photoshop PDFSaveOptions"
+
+hkcr,"Photoshop.PDFSaveOptions\CLSID",,,"{bd628b17-53b8-4464-8fc2-f161da4b920c}"
+
+hkcr,"Photoshop.PDFSaveOptions\CurVer",,,"Photoshop.PDFSaveOptions.60"
+
+hkcr,"Photoshop.PDFSaveOptions.60",,,"Photoshop PDFSaveOptions"
+
+hkcr,"Photoshop.PDFSaveOptions.60\CLSID",,,"{bd628b17-53b8-4464-8fc2-f161da4b920c}"
+
+hkcr,"Photoshop.PDPFile.60\DefaultIcon",,,"%01%\Photoshop.exe,58"
+
+hkcr,"Photoshop.PDPFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDPFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PDPFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PhotoCDOpenOptions",,,"Photoshop PhotoCDOpenOptions"
+
+hkcr,"Photoshop.PhotoCDOpenOptions\CLSID",,,"{e6a82fbb-c5d0-4e75-b25a-d8391a2ae311}"
+
+hkcr,"Photoshop.PhotoCDOpenOptions\CurVer",,,"Photoshop.PhotoCDOpenOptions.60"
+
+hkcr,"Photoshop.PhotoCDOpenOptions.60",,,"Photoshop PhotoCDOpenOptions"
+
+hkcr,"Photoshop.PhotoCDOpenOptions.60\CLSID",,,"{e6a82fbb-c5d0-4e75-b25a-d8391a2ae311}"
+
+hkcr,"Photoshop.PhotoshopSaveOptions",,,"Photoshop PhotoshopSaveOptions"
+
+hkcr,"Photoshop.PhotoshopSaveOptions\CLSID",,,"{d4c83639-1cab-47a7-9711-86ca21c63043}"
+
+hkcr,"Photoshop.PhotoshopSaveOptions\CurVer",,,"Photoshop.PhotoshopSaveOptions.60"
+
+hkcr,"Photoshop.PhotoshopSaveOptions.60",,,"Photoshop PhotoshopSaveOptions"
+
+hkcr,"Photoshop.PhotoshopSaveOptions.60\CLSID",,,"{d4c83639-1cab-47a7-9711-86ca21c63043}"
+
+hkcr,"Photoshop.PICTFile.60\DefaultIcon",,,"%01%\Photoshop.exe,3"
+
+hkcr,"Photoshop.PICTFileSaveOptions",,,"Photoshop PICTFileSaveOptions"
+
+hkcr,"Photoshop.PICTFileSaveOptions\CLSID",,,"{27033026-f51b-4c3d-9099-5cdf7723976a}"
+
+hkcr,"Photoshop.PICTFileSaveOptions\CurVer",,,"Photoshop.PICTFileSaveOptions.60"
+
+hkcr,"Photoshop.PICTFileSaveOptions.60",,,"Photoshop PICTFileSaveOptions"
+
+hkcr,"Photoshop.PICTFileSaveOptions.60\CLSID",,,"{27033026-f51b-4c3d-9099-5cdf7723976a}"
+
+hkcr,"Photoshop.PicturePackageOptions",,,"Photoshop PicturePackageOptions"
+
+hkcr,"Photoshop.PicturePackageOptions\CLSID",,,"{45d2f830-f5f1-49d3-b58c-47ffb5da6b45}"
+
+hkcr,"Photoshop.PicturePackageOptions\CurVer",,,"Photoshop.PicturePackageOptions.60"
+
+hkcr,"Photoshop.PicturePackageOptions.60",,,"Photoshop PicturePackageOptions"
+
+hkcr,"Photoshop.PicturePackageOptions.60\CLSID",,,"{45d2f830-f5f1-49d3-b58c-47ffb5da6b45}"
+
+hkcr,"Photoshop.PixarSaveOptions",,,"Photoshop PixarSaveOptions"
+
+hkcr,"Photoshop.PixarSaveOptions\CLSID",,,"{e278a1d3-3b3a-4189-97a1-17937bb9180f}"
+
+hkcr,"Photoshop.PixarSaveOptions\CurVer",,,"Photoshop.PixarSaveOptions.60"
+
+hkcr,"Photoshop.PixarSaveOptions.60",,,"Photoshop PixarSaveOptions"
+
+hkcr,"Photoshop.PixarSaveOptions.60\CLSID",,,"{e278a1d3-3b3a-4189-97a1-17937bb9180f}"
+
+hkcr,"Photoshop.PlugIn\DefaultIcon",,,"%01%\Photoshop.exe,2"
+
+hkcr,"Photoshop.PlugIn\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PNGFile.60\DefaultIcon",,,"%01%\Photoshop.exe,36"
+
+hkcr,"Photoshop.PNGSaveOptions",,,"Photoshop PNGSaveOptions"
+
+hkcr,"Photoshop.PNGSaveOptions\CLSID",,,"{d7414c28-4bc4-4e29-8c7f-5a9720bceb71}"
+
+hkcr,"Photoshop.PNGSaveOptions\CurVer",,,"Photoshop.PNGSaveOptions.60"
+
+hkcr,"Photoshop.PNGSaveOptions.60",,,"Photoshop PNGSaveOptions"
+
+hkcr,"Photoshop.PNGSaveOptions.60\CLSID",,,"{d7414c28-4bc4-4e29-8c7f-5a9720bceb71}"
+
+hkcr,"Photoshop.PortableBitMapFile.60\DefaultIcon",,,"%01%\Photoshop.exe,79"
+
+hkcr,"Photoshop.PortableBitMapFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PortableBitMapFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PortableBitMapFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PreferencesFile\DefaultIcon",,,"%01%\Photoshop.exe,10"
+
+hkcr,"Photoshop.PreferencesFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PresentationOptions",,,"Photoshop PresentationOptions"
+
+hkcr,"Photoshop.PresentationOptions\CLSID",,,"{dc8c2b41-ecce-47ed-bc0a-4c634a9cc655}"
+
+hkcr,"Photoshop.PresentationOptions\CurVer",,,"Photoshop.PresentationOptions.60"
+
+hkcr,"Photoshop.PresentationOptions.60",,,"Photoshop PresentationOptions"
+
+hkcr,"Photoshop.PresentationOptions.60\CLSID",,,"{dc8c2b41-ecce-47ed-bc0a-4c634a9cc655}"
+
+hkcr,"Photoshop.PrintingInksFile\DefaultIcon",,,"%01%\Photoshop.exe,22"
+
+hkcr,"Photoshop.PrintingInksFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.ProofSetup\DefaultIcon",,,"%01%\Photoshop.exe,20"
+
+hkcr,"Photoshop.ProofSetup\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PSBFile.60\DefaultIcon",,,"%01%\Photoshop.exe,81"
+
+hkcr,"Photoshop.PSBFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PSBFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PSBFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PSBFile.60\shell\print\command",,,"""%01%\Photoshop.exe"" -p ""%%1"""
+
+hkcr,"Photoshop.PXRFile.60\DefaultIcon",,,"%01%\Photoshop.exe,62"
+
+hkcr,"Photoshop.PXRFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PXRFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.PXRFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.RadianceFile.60\DefaultIcon",,,"%01%\Photoshop.exe,80"
+
+hkcr,"Photoshop.RadianceFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.RadianceFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.RadianceFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.RAWFile.60\DefaultIcon",,,"%01%\Photoshop.exe,58"
+
+hkcr,"Photoshop.RawFormatOpenOptions",,,"Photoshop RawFormatOpenOptions"
+
+hkcr,"Photoshop.RawFormatOpenOptions\CLSID",,,"{d3d399cb-8209-4011-8b12-b195ea4e5c8f}"
+
+hkcr,"Photoshop.RawFormatOpenOptions\CurVer",,,"Photoshop.RawFormatOpenOptions.60"
+
+hkcr,"Photoshop.RawFormatOpenOptions.60",,,"Photoshop RawFormatOpenOptions"
+
+hkcr,"Photoshop.RawFormatOpenOptions.60\CLSID",,,"{d3d399cb-8209-4011-8b12-b195ea4e5c8f}"
+
+hkcr,"Photoshop.RawSaveOptions",,,"Photoshop RawSaveOptions"
+
+hkcr,"Photoshop.RawSaveOptions\CLSID",,,"{5deddaec-8ad6-427b-9994-672d32ca49bc}"
+
+hkcr,"Photoshop.RawSaveOptions\CurVer",,,"Photoshop.RawSaveOptions.60"
+
+hkcr,"Photoshop.RawSaveOptions.60",,,"Photoshop RawSaveOptions"
+
+hkcr,"Photoshop.RawSaveOptions.60\CLSID",,,"{5deddaec-8ad6-427b-9994-672d32ca49bc}"
+
+hkcr,"Photoshop.RGBColor",,,"Photoshop RGBColor"
+
+hkcr,"Photoshop.RGBColor\CLSID",,,"{2b284e6e-504c-47d4-a6c8-0f96a5cef1e0}"
+
+hkcr,"Photoshop.RGBColor\CurVer",,,"Photoshop.RGBColor.60"
+
+hkcr,"Photoshop.RGBColor.60",,,"Photoshop RGBColor"
+
+hkcr,"Photoshop.RGBColor.60\CLSID",,,"{2b284e6e-504c-47d4-a6c8-0f96a5cef1e0}"
+
+hkcr,"Photoshop.SCTFile.60\DefaultIcon",,,"%01%\Photoshop.exe,16"
+
+hkcr,"Photoshop.SCTFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SCTFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SCTFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SepTablesFile\DefaultIcon",,,"%01%\Photoshop.exe,20"
+
+hkcr,"Photoshop.SepTablesFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SGIRGBSaveOptions",,,"Photoshop SGIRGBSaveOptions"
+
+hkcr,"Photoshop.SGIRGBSaveOptions\CLSID",,,"{7a6c9e71-996a-4e4a-9aec-f2a4c4dd1e77}"
+
+hkcr,"Photoshop.SGIRGBSaveOptions\CurVer",,,"Photoshop.SGIRGBSaveOptions.60"
+
+hkcr,"Photoshop.SGIRGBSaveOptions.60",,,"Photoshop SGIRGBSaveOptions"
+
+hkcr,"Photoshop.SGIRGBSaveOptions.60\CLSID",,,"{7a6c9e71-996a-4e4a-9aec-f2a4c4dd1e77}"
+
+hkcr,"Photoshop.ShapeCurves\DefaultIcon",,,"%01%\Photoshop.exe,8"
+
+hkcr,"Photoshop.ShapeCurves\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SHHFile.60\DefaultIcon",,,"%01%\Photoshop.exe,59"
+
+hkcr,"Photoshop.SHHFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SHHFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SHHFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SolidColor",,,"Photoshop SolidColor"
+
+hkcr,"Photoshop.SolidColor\CLSID",,,"{54658ce2-27f1-405c-8531-68b762fcdf30}"
+
+hkcr,"Photoshop.SolidColor\CurVer",,,"Photoshop.SolidColor.60"
+
+hkcr,"Photoshop.SolidColor.60",,,"Photoshop SolidColor"
+
+hkcr,"Photoshop.SolidColor.60\CLSID",,,"{54658ce2-27f1-405c-8531-68b762fcdf30}"
+
+hkcr,"Photoshop.STAFile.60\DefaultIcon",,,"%01%\Photoshop.exe,60"
+
+hkcr,"Photoshop.STAFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.STAFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.STAFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.Styles\DefaultIcon",,,"%01%\Photoshop.exe,43"
+
+hkcr,"Photoshop.Styles\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.SubPathInfo",,,"Photoshop SubPathInfo"
+
+hkcr,"Photoshop.SubPathInfo\CLSID",,,"{729d9100-32a3-451d-9c77-72f0e9d0844b}"
+
+hkcr,"Photoshop.SubPathInfo\CurVer",,,"Photoshop.SubPathInfo.60"
+
+hkcr,"Photoshop.SubPathInfo.60",,,"Photoshop SubPathInfo"
+
+hkcr,"Photoshop.SubPathInfo.60\CLSID",,,"{729d9100-32a3-451d-9c77-72f0e9d0844b}"
+
+hkcr,"Photoshop.SwatchesFile\DefaultIcon",,,"%01%\Photoshop.exe,27"
+
+hkcr,"Photoshop.SwatchesFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.TargaSaveOptions",,,"Photoshop TargaSaveOptions"
+
+hkcr,"Photoshop.TargaSaveOptions\CLSID",,,"{221ff176-29a5-4605-a7b2-a4d364205d57}"
+
+hkcr,"Photoshop.TargaSaveOptions\CurVer",,,"Photoshop.TargaSaveOptions.60"
+
+hkcr,"Photoshop.TargaSaveOptions.60",,,"Photoshop TargaSaveOptions"
+
+hkcr,"Photoshop.TargaSaveOptions.60\CLSID",,,"{221ff176-29a5-4605-a7b2-a4d364205d57}"
+
+hkcr,"Photoshop.TGAFile.60\DefaultIcon",,,"%01%\Photoshop.exe,19"
+
+hkcr,"Photoshop.TGAFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.TGAFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.TGAFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.TIFFFile.60\DefaultIcon",,,"%01%\Photoshop.exe,5"
+
+hkcr,"Photoshop.TIFFFile.60\shell\edit\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.TIFFFile.60\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.TIFFFile.60\shell\preview\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.TiffSaveOptions",,,"Photoshop TiffSaveOptions"
+
+hkcr,"Photoshop.TiffSaveOptions\CLSID",,,"{531f171b-4803-4115-8775-50e9f902ee07}"
+
+hkcr,"Photoshop.TiffSaveOptions\CurVer",,,"Photoshop.TiffSaveOptions.60"
+
+hkcr,"Photoshop.TiffSaveOptions.60",,,"Photoshop TiffSaveOptions"
+
+hkcr,"Photoshop.TiffSaveOptions.60\CLSID",,,"{531f171b-4803-4115-8775-50e9f902ee07}"
+
+hkcr,"Photoshop.ToolPresets\DefaultIcon",,,"%01%\Photoshop.exe,47"
+
+hkcr,"Photoshop.TransferFunctionsFile\DefaultIcon",,,"%01%\Photoshop.exe,18"
+
+hkcr,"Photoshop.TransferFunctionsFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.VariationsFile\DefaultIcon",,,"%01%\Photoshop.exe,29"
+
+hkcr,"Photoshop.VariationsFile\shell\open\command",,,"""%01%\Photoshop.exe"" ""%%1"""
+
+hkcr,"Photoshop.WBMFile.60\DefaultIcon",,,"%01%\Photoshop.exe,58"
+
+hkcr,"PicturePackageOptions\CurVer",,,"Photoshop.PicturePackageOptions.60"
+
+[Strings]

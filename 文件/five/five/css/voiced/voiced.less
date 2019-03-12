@@ -1,0 +1,129 @@
+@rem: 74rem;
+.font-dpr (@fontSize: 12px) {
+    font-size: @fontSize;
+    [data-dpr=2] & {
+        font-size: @fontSize*2;
+    }
+    [data-dpr=3] & {
+        font-size: @fontSize*3;
+    }
+}
+
+.border-radius(@radius: 5px) {
+    border-radius: @radius;
+}
+
+.bg(@bk) {
+    background: @bk;
+}
+
+.lg(@lg) {
+    line-height: @lg;
+}
+
+body {
+    .bg(#f2f2f2);
+}
+
+#main {
+    margin-top: 170/@rem;
+    width: 100%;
+    background: none;
+    margin-bottom: 98/@rem;
+    .top {
+        padding: 0 30/@rem;
+        background: #fff;
+        padding-top: 4px;
+        padding-bottom: 22/@rem;
+        .title {
+            h4 {
+                font-size: 15px;
+                line-height: 84/@rem;
+            }
+        }
+        .discription {
+            display: flex;
+            justify-content: flex-start;
+            .image {
+                width: 157/@rem;
+                img {
+                    width: 100%;
+                }
+            }
+            .right {
+                margin-left: 30/@rem;
+                margin-top: 11/@rem;
+                h5 {
+                    font-size: 11px;
+                    color: #393939;
+                    line-height: 53/@rem;
+                }
+                p {
+                    font-size: 10px;
+                    line-height: 31/@rem;
+                }
+                p:last-child {
+                    margin-top: 15/@rem;
+                }
+            }
+        }
+    }
+    .bottom {
+        background: #fff;
+        margin-top: 20/@rem;
+        padding: 0 30/@rem;
+        .title {
+            padding-top: 7/@rem;
+            h4 {
+                font-size: 15px;
+                line-height: 78/@rem;
+            }
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li {
+                width: 170/@rem;
+                margin-right: 85/@rem;
+                .img {
+                    position: relative;
+                    img {
+                        width: 100%;
+                    }
+                    div {
+                        width: 100%;
+                        height: 24/@rem;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        background: rgba(100, 100, 100, 0.8);
+                        padding-left: 19/@rem;
+                        line-height: 24/@rem;
+                        font-size: 6px;
+                        color: #fff;
+                        i {
+                            display: inline-block;
+                            width: 14/@rem;
+                            height: 14/@rem;
+                            margin-right: 7/@rem;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            li:nth-child(3n) {
+                margin-right: 0;
+            }
+            p{
+                font-size: 10px;
+                color: #7b7b7b;
+                line-height: 61/@rem;
+                margin-bottom: 12/@rem;
+            }
+        }
+    }
+}

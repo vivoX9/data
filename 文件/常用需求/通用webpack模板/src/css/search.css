@@ -1,0 +1,166 @@
+body {
+    background: #fff;
+    /* touch-action: none; */
+}
+
+img {
+    vertical-align: top;
+    border: none
+}
+
+.search_fix {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 44px;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+}
+
+.top_title {
+    font-family: PingFangSC-Medium;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    padding: 30px 0 0 19px;
+    background-color: #F9F9F9;
+}
+
+.top_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #EAEAF1;
+    background-color: #F9F9F9;
+}
+
+.search_div {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    margin: 15px 16px;
+    border-radius: 10px;
+    background: rgba(142, 142, 147, 0.12);
+    position: relative;
+}
+
+.search_div:before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: url(../img/07搜索/search_s.png) no-repeat;
+    background-size: 100% 100%;
+    left: 8px;
+    top: 11px;
+}
+
+.search_div input {
+    border: none;
+    outline: none;
+    min-width: 90%;
+    height: 36px;
+    background-color: transparent;
+    position: absolute;
+    left: 29px;
+    top: 0px;
+    font-family: AppleSystemUIFont;
+    font-size: 17px;
+    color: #8E8E93;
+    letter-spacing: -0.41px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.nosearch_div {
+    position: absolute;
+    margin-top: 331px;
+    width: 100%;
+}
+
+.search_cx {
+    text-align: center;
+}
+
+.search_cx img {
+    width: 114px;
+    height: 39px;
+}
+
+.search_text {
+    margin-top: 17px;
+    text-align: center;
+    font-family: PingFangTC-Regular;
+    font-size: 12px;
+    color: #9F9F9F;
+    letter-spacing: 0;
+}
+
+
+.item {
+    height: 72px;
+    margin: 0 19px;
+    border-bottom: 1px solid #EAEAF1;
+    position: relative;
+    display: -webkit-flex;
+    flex-direction: row;
+}
+
+.item_img {
+    margin-left: 4px;
+    padding-top: 25px;
+    width: 63px;
+}
+
+.item_img img {
+    width: 63px;
+    height: 27px;
+}
+
+.item_describe {
+    margin-left: 22px;
+    padding-top: 14px;
+}
+
+.item_describe {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+.item_price {
+    margin-top: 3px;
+    ;
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+.item_go {
+    position: absolute;
+    right: 0;
+    top: 28.1px;
+    background: url(../img/07搜索/more_black@3x.png) no-repeat;
+    background-size: cover;
+    width: 7.8px;
+    height: 15.6px;
+}
+
+.mescroll {
+    position: fixed;
+    top: 142px;
+    bottom: 0;
+    height: auto;
+    overflow-y: auto;
+}
+
+.search_list{
+    display: none;
+}

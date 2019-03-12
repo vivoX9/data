@@ -1,0 +1,21 @@
+1.小程序自定义组件以及父向子传值
+	父组件：
+	wxml:<自定义组件名 propB="值"></自定义组件名>
+	json:"usingComponents": {"自定义组件名": "自定义组件位置"},
+	js:data:{值：值}
+	子组件
+	wxml:....标准代码
+	js:
+		 properties: {
+        			propA: {
+            				type: 值的数据类型（Array,Number。。。）
+        			}
+   		 },
+		data:{},
+		ready(){//此处设置值}
+	json:"component": true,
+		
+2.小程序跳转页面传多个值
+	    wx.navigateTo({
+            		url: '跳转地址?跳转键名=' + 跳转传的值 + "&跳转键名=" +跳转传的值...
+        	    })	

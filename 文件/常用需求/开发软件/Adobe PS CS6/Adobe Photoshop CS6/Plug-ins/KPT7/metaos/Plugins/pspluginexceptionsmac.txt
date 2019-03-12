@@ -1,0 +1,93 @@
+FilmStrip
+Paths to Illustrator
+Quick Edit
+Kodak Digital Science Photo CD [PD IF 1.1]
+Photo CD Acquire [1.1]
+Photo CD [1.0]
+JPEG [2.51]
+JPEG [2.5]
+EPS JPEG [AC EX 1.06]
+EPS JPEG [AC EX 2.51]
+
+Lens Flare
+Lighting Effects
+Texture Fill
+Variations
+
+Distortions	[2.5]
+Distortions	[2.51]
+Crystallize	[PD version is bad but regular is good 3.04]
+Pointillize	[almost works 4.0]
+
+Pinch		[4.0]
+Pinch		[3.04]
+Polar 		[4.0]
+Polar		[3.04]
+Pond Ripple	[3.04]
+Ripple 		[4.0]
+Ripple		[3.04]
+Shear		[4.0]
+Shear		[3.04]
+Sphere		[3.04]
+Spherize	[4.0]
+Spherize	[3.04]
+Twirl		[4.0]
+Twirl		[3.04]
+Wave		[4.0]
+Wave		[3.04]
+Wave		[2.0]
+Wind		[4.0]
+Wind		[3.04]
+ZigZag		[4.0]
+ZigZag		[3.04]
+
+3-D 		[Andromeda fpu req]
+
+Expression					[fpu req 2.0]
+Expression 3.0				[fpu req]
+
+Paint Alchemy 1.0.2F		[fpu req]
+
+KPT Glass Lens Normal 		[fpu req 1.03]
+KPT Glass Lens Bright		[fpu req 1.03]
+KPT Glass Lens Soft			[fpu req 1.03]
+KPT Sharpen Intensity		[fpu req 1.03]
+KPT Texture Explorer		[fpu req 1.03]
+KPT Gradient Designer		[fpu req 1.03]
+KPT Gradient on Paths		[fpu req 1.03]
+KPT Julia Set Explorer		[fpu req 1.03]
+KPT Julia Set II Explorer	[fpu req 1.03]
+KPT Julia Set III Explorer	[fpu req 1.03]
+KPT Mandelbrot Set Explorer	[fpu req 1.03]
+KPT Cyclone					[locks up on exit in PS]
+KPT 2.0 Glass Lens Bright	[fpu req]
+KPT 2.0 Glass Lens Normal	[fpu req]
+KPT 2.0 Glass Lens Soft		[fpu req]
+KPT 2.0 Fractal Explorer	[fpu req]
+KPT 2.0 Grime Layer			[fpu req]
+KPT 2.0 Page Curl			[fpu req]
+KPT 2.0 Sharpen Intensity	[fpu req]
+KPT 2.0 Special Red Noise	[fpu req]
+KPT 2.0 Special Green Noise	[fpu req]
+KPT 2.0 Special Blue Noise	[fpu req]
+KPT 2.0 Find Edges Charcoal	[fpu req]
+KPT 2.0 Find Edges Soft		[fpu req]
+KPT 2.0 Find Edges&Invert	[fpu req]
+KPT 2.0 Cyclone				[blackens screen forever in PS too]
+KPT 2.1 Cyclone				[blackens screen forever]
+KPT 2.1 Gradients on Paths	[obsolete]
+
+Sharp JX-100				[fpu req]
+
+Blade 1.5					[alters system font]
+FloppyLens VR				[crashes]
+Test Strip					[doesn't affect image]
+
+Read Watermark				[requires property procs]
+Embed Watermark				[requires property procs]
+
+TWAIN						[Scanwizard]
+ColorSyncª Filter			[1.1]
+ScanWizard PPC 3.0.8		[selection rectangle]
+ScanWizard PPC 3.0.10		[selection rectangle]
+ScanWizard PPC 3.1.2		[selection rectangle]

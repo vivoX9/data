@@ -1,0 +1,4 @@
+<chat
+	username="{{ username }}"
+	groupId="{{ groupId }}"
+	chatType="chatRoom"></chat>

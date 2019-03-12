@@ -1,0 +1,103 @@
+body {
+  background: #f2f2f2;
+}
+#main {
+  margin-top: 2.2972973rem;
+  width: 100%;
+  background: none;
+  margin-bottom: 1.32432432rem;
+}
+#main .top {
+  padding: 0 0.40540541rem;
+  background: #fff;
+  padding-top: 4px;
+  padding-bottom: 0.2972973rem;
+}
+#main .top .title h4 {
+  font-size: 15px;
+  line-height: 1.13513514rem;
+}
+#main .top .discription {
+  display: flex;
+  justify-content: flex-start;
+}
+#main .top .discription .image {
+  width: 2.12162162rem;
+}
+#main .top .discription .image img {
+  width: 100%;
+}
+#main .top .discription .right {
+  margin-left: 0.40540541rem;
+  margin-top: 0.14864865rem;
+}
+#main .top .discription .right h5 {
+  font-size: 11px;
+  color: #393939;
+  line-height: 0.71621622rem;
+}
+#main .top .discription .right p {
+  font-size: 10px;
+  line-height: 0.41891892rem;
+}
+#main .top .discription .right p:last-child {
+  margin-top: 0.2027027rem;
+}
+#main .bottom {
+  background: #fff;
+  margin-top: 0.27027027rem;
+  padding: 0 0.40540541rem;
+}
+#main .bottom .title {
+  padding-top: 0.09459459rem;
+}
+#main .bottom .title h4 {
+  font-size: 15px;
+  line-height: 1.05405405rem;
+}
+#main .bottom ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#main .bottom ul li {
+  width: 2.2972973rem;
+  margin-right: 1.14864865rem;
+}
+#main .bottom ul li .img {
+  position: relative;
+}
+#main .bottom ul li .img img {
+  width: 100%;
+}
+#main .bottom ul li .img div {
+  width: 100%;
+  height: 0.32432432rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(100, 100, 100, 0.8);
+  padding-left: 0.25675676rem;
+  line-height: 0.32432432rem;
+  font-size: 6px;
+  color: #fff;
+}
+#main .bottom ul li .img div i {
+  display: inline-block;
+  width: 0.18918919rem;
+  height: 0.18918919rem;
+  margin-right: 0.09459459rem;
+}
+#main .bottom ul li .img div i img {
+  width: 100%;
+  height: 100%;
+}
+#main .bottom ul li:nth-child(3n) {
+  margin-right: 0;
+}
+#main .bottom ul p {
+  font-size: 10px;
+  color: #7b7b7b;
+  line-height: 0.82432432rem;
+  margin-bottom: 0.16216216rem;
+}

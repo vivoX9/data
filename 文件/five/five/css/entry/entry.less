@@ -1,0 +1,93 @@
+@rem: 74rem;
+.font-dpr (@fontSize: 12px) {
+    font-size: @fontSize;
+    [data-dpr=2] & {
+        font-size: @fontSize*2;
+    }
+    [data-dpr=3] & {
+        font-size: @fontSize*3;
+    }
+}
+
+.border-radius(@radius: 5px) {
+    border-radius: @radius;
+}
+
+.bg(@bk) {
+    background: @bk;
+}
+
+.lg(@lg) {
+    line-height: @lg;
+}
+
+body {
+    background: url(../../images/62.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .img {
+        width: 178/@rem;
+        height: 178/@rem;
+        border-radius: 50/@rem;
+        overflow: hidden;
+        margin-top: 181/@rem;
+        margin-bottom: 46/@rem;
+        img {
+            width: 100%;
+        }
+    }
+    h4 {
+        font-family: "方正行楷";
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 324/@rem;
+    }
+    .entry {
+        width: 520/@rem ;
+        height: 88/@rem;
+        background: #0096b4;
+        border-radius: 40/@rem;
+        text-align: center;
+        line-height: 88/@rem;
+        margin-bottom: 25/@rem;
+        a {
+            display: inline-block;
+            width: 100%;
+            color: #fff;
+        }
+    }
+    .register {
+        width: 520/@rem ;
+        height: 88/@rem;
+        background: #26c8a3;
+        border-radius: 40/@rem;
+        text-align: center;
+        line-height: 88/@rem;
+        margin-bottom: 203/@rem;
+        a {
+            display: inline-block;
+            width: 100%;
+            color: #fff;
+        }
+    }
+    ul{
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        margin-left: 100/@rem;
+        li{
+            width:38/@rem ;
+            height:38/@rem ;
+            margin-right: 88/@rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,274 @@
+@rem: 75rem;
+.font-dpr (@fontSize: 12px) {
+    font-size: @fontSize;
+    [data-dpr=2] & {
+        font-size: @fontSize*2;
+    }
+    [data-dpr=3] & {
+        font-size: @fontSize*3;
+    }
+}
+
+.border-radius(@radius: 5px) {
+    border-radius: @radius;
+}
+
+.bg(@bk) {
+    background: @bk;
+}
+
+.lg(@lg) {
+    line-height: @lg;
+}
+
+//头部
+#head {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 81/@rem;
+    background: #fff;
+    position: fixed;
+    .bell {
+        width: 28/@rem;
+        height: 30/@rem;
+        margin-left: 32/@rem;
+        img {
+            width: 100%;
+        }
+    }
+    h4 {
+        width: 62/@rem;
+        font-size: 15px;
+        color: #4d4d4d;
+        line-height: 81/@rem;
+    }
+    h4.first {
+        margin-right: 96/@rem;
+        margin-left: 198/@rem;
+    }
+    h4.active {
+        color: #5d9eff;
+        border-bottom: 2px solid #5d9eff;
+    }
+}
+
+#nav {
+    padding-top: 81/@rem;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 30/@rem;
+    .title {
+        margin-left: 31/@rem;
+        h3 {
+            font-size: 15px;
+            color: #353535;
+            line-height: 91/@rem;
+        }
+    }
+    .swiper-container {
+        padding-left: 9/@rem ;
+        .swiper-slide {
+            margin-right: 15/@rem ;
+            div {
+                width: 262/@rem;
+                background: url(../../images/43.jpg) no-repeat;
+                background-size: 100% 100%;
+                p {
+                    padding-left: 31/@rem ;
+                }
+                p.first {
+                    padding-top: 58/@rem;
+                    color: #404649;
+                    font-size: 8px;
+                    line-height: 23/@rem;
+                }
+                p.second {
+                    font-size: 11px;
+                    padding-bottom: 27/@rem;
+                    color: #4D5153;
+                }
+            }
+            div.second {
+                width: 262/@rem;
+                background: url(../../images/44.jpg) no-repeat;
+                background-size: 100% 100%;
+            }
+            div.third {
+                width: 262/@rem;
+                background: url(../../images/45.jpg) no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+}
+
+//主体
+#main {
+    width: 100%;   
+    margin-top: 20/@rem;
+   
+    margin-bottom: 98/@rem;
+    .common2{
+        margin-bottom: 50/@rem;
+        background: #fff;
+         padding: 0 26/@rem;
+    }
+    .common2:last-child{
+          margin-bottom: 0;
+    }
+    .title {
+        width: 100%;
+        height: 78/@rem;
+        line-height: 78/@rem;
+        display: flex;
+        justify-content: flex-start;
+        p.left {
+            font-size: 9px;
+            color: #b3b3b3;
+        }
+        p.right {
+            font-size: 9px;
+            color: #5d9eff;
+        }
+    }
+    .content {
+        .head {
+            width: 100%;
+            height: 59/@rem;
+            line-height: 59/@rem;
+            display: flex;
+            justify-content: flex-start;
+            padding: 4/@rem 0;
+            i {
+                display: inline-block;
+                width: 52/@rem ;
+                height: 52/@rem;
+                background: url(../../images/46.jpg) no-repeat;
+                background-size: 100% 100%;
+                border-radius: 50%;
+                margin-left: 6/@rem;
+                margin-right: 20/@rem;
+            }
+            p.left {
+                font-size: 11px;
+                color: #333333;
+            }
+            p.right {
+                width: 104/@rem;
+                height: 42/@rem;
+                line-height: 42/@rem;
+                text-align: center;
+                border: 1px solid #0096b3;
+                font-size: 10px;
+                color: #0096b3;
+                border-radius: 15/@rem;
+                margin-left: 442/@rem;
+            }
+        }
+        .middle {
+            width: 100%;
+            h4 {
+                width: 100%;
+                height: 74/@rem;
+                line-height: 74/@rem;
+                font-size: 13px;
+                color: #333333;
+                margin-left: 6/@rem;
+            }
+            p {
+                margin-left: 6/@rem;
+                font-size: 12px;
+                color: #6b6b6b;
+                line-height: 35/@rem;
+            }
+            img{
+                width: 100%;
+                margin-bottom: 16/@rem;
+            }
+        }
+        .bottom{
+            margin-left: 6/@rem;
+            padding-bottom: 43/@rem;
+            display: flex;
+            justify-content: flex-start;
+           
+            p{
+                color: #c6c9ca;
+                font-size: 12px;
+            }
+            i.f1{
+                display: inline-block;
+                width: 32/@rem;
+                height: 32/@rem;
+                margin-left: 295/@rem;
+                margin-right: 84/@rem;
+                img{
+                    width: 100%;
+                    
+                    
+                }
+               
+            }
+            i.f2{
+                display: flex;
+                justify-content: flex-start;
+                margin-right: 66/@rem;
+                font-style: normal;
+                img{
+                    width: 36/@rem;
+                    height: 32/@rem;
+                    
+                }
+                span{
+                    margin-left: 8/@rem;
+                }
+            } 
+            i.f3{
+                display: flex;
+                justify-content: flex-start;
+                font-style: normal;
+                 span{
+                    margin-left: 8/@rem;
+                }
+                img{
+                    width: 34/@rem;
+                    height: 34/@rem;
+                    
+                }
+            }
+        }
+    }
+}
+
+//底部
+#foot {
+    width: 100%;
+    height: 98/@rem;
+    background: #fff;
+    a {
+        color: #000000;
+        i {
+            width: 30/@rem;
+            height: 30/@rem;
+            margin-bottom: 10/@rem;
+        }
+        i.first {
+            background: url(../../images/09.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        i.second {
+            background: url(../../images/10.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        i.third {
+            background: url(../../images/11.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        i.fourth {
+            background: url(../../images/08.png) no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+}

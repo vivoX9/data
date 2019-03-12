@@ -1,0 +1,211 @@
+ATTENTION: THIS IS A LICENSE, NOT A SALE.  THIS PRODUCT IS PROVIDED UNDER THE FOLLOWING LICENSE AGREEMENT AND ALL APPLICABLE ADDENDA ("LICENSE") WHICH DEFINE WHAT YOU MAY DO WITH THE PRODUCT AND CONTAIN LIMITATIONS ON WARRANTIES AND/OR REMEDIES.  THIS LICENSE IS GRANTED BY COREL CORPORATION LIMITED FOR PRODUCTS PURCHASED OUTSIDE OF CANADA AND BY COREL CORPORATION FOR PRODUCTS PURCHASED IN CANADA.  THIS LICENSE INCLUDES THE FOLLOWING:  
+
+1.  GENERAL LICENSE AGREEMENT
+2.  COREL GUIDELINES FOR THE USE OF CLIPART AND STOCK PHOTO IMAGES
+3.  TRIAL VERSION ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+4.  ACADEMIC VERSION ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+5.  OEM VERSION ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+6.  SDK ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+7.  BETA VERSION ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+8.  ATTUNE SOFTWARE LICENSE AGREEMENT AND LIMITED WARRANTY 
+
+
+GENERAL LICENSE AGREEMENT
+
+IMPORTANT:  CAREFULLY READ THIS LICENSE BEFORE USING THIS PRODUCT.  INSTALLING, COPYING, OR OTHERWISE USING THIS PRODUCT INDICATES YOUR ACKNOWLEDGMENT THAT YOU HAVE READ THIS LICENSE  AND AGREE TO BE BOUND BY AND COMPLY WITH ITS TERMS.  IF YOU DO NOT AGREE, RETURN THE COMPLETE PRODUCT TO COREL CUSTOMER SERVICE, 1600 CARLING AVENUE, OTTAWA, ONTARIO, CANADA, K1Z 8R7, WITHIN 10 DAYS OF THE DATE YOU ACQUIRED IT FOR A FULL REFUND.  THIS LICENSE AGREEMENT IS YOUR PROOF OF LICENSE.  PLEASE TREAT IT AS VALUABLE PROPERTY.
+
+A. LICENSE:  
+COREL ("we" or "us") provides you with storage media containing a computer program, computer software, including its code, objects including their APIs as well as any images, photographs, templates, animations, video, audio, music, text and "applets" incorporated into the software, the accompanying printed materials, a License, and "online" or electronic documentation (together called the "Product") and we grant you a license to use the Product in accordance with the terms of this License.  Any supplemental software code and supporting materials provided to you as part of support services provided by COREL for the Product shall be considered part of the Product and subject to the terms and conditions of this License.  The copyright and all other rights to the Product shall remain with us or our licensors.  You must reproduce any copyright or other notice marked on the Product on all copies you make.
+
+B. YOU MAY:  
+1. install and use one copy of the Product on a single computer.   You may also make and use a second copy of the Product on a home or portable computer provided that copy is never loaded in the RAM of the home or portable computer at the same time it is loaded in the RAM of the primary computer. 
+2.  also store or install a copy of the Product on a storage device, such as a network server, used only to install or run the Product on your other computers over an internal network; however, you must acquire and dedicate a license for each separate computer on which the Product is installed or run from the storage device. A license for the Product may not be shared or used concurrently on different computers.
+3. make one copy of the Product for archive or backup purposes. 
+4. if this Product includes Clipart and/or Photo Images, use the Clipart and or Photo Images only if you comply with the terms set out in the Corel Guidelines for the Use of Clipart and Professional Photo Images below.
+5. except in the case of Academic and OEM edition Products which are non-transferable (see Academic Version Addendum and OEM Version Addendum), transfer the Product to someone else only if you assign all of your rights under this License, cease all use of the Product, erase or destroy any copy (including the hard disk copy) made in support of your use of the Product, and ensure that the person to whom you wish to transfer the Product agrees to the terms of this License.
+6. if you have purchased this Product as an upgrade of either a Corel product or another vendor's product, you may continue to use your upgraded product with this Product.  If you transfer this Product, you must either transfer the upgraded product at the same time you transfer the Product or destroy the upgraded product at the same time you transfer the Product.  If the Product you have purchased is an upgrade of a Corel product, you now may use that upgraded product only in accordance with this License.
+7.  use only one (1) of the language versions if the Product provides you with a selection of Multiple Language Versions.
+
+If this Product includes NetPerfect(R) you may:
+
+8. use NetPerfect to manage up to one hundred (100) documents.  If you wish to manage more than one hundred (100) documents you must obtain an additional NetPerfect license from Corel.
+
+If this Product includes Show On The Go(tm), Corel PRESENTS Runtime Player(tm) or a  similar feature that permits the creation of a runtime slide show presentation you may:
+
+9. freely copy and distribute the runtime program files together with slide show graphic files developed using the Product; provided you (a) do not use the logo, name, or trademarks of Corel or its licensors other than to indicate that the slide show file was created using Corel(R) Presentations(tm) or another Corel product, (b) include your copyright notice on media containing the runtime program files and/or in a conspicuous place within your slide show file, and (c) indemnify Corel and its licensors against any claims or lawsuits arising from your use or distribution of the runtime program files as part of the slide show file you distribute.  You are responsible for all primary technical support to the end user of any runtime program file you distribute.
+
+If this Product includes the Envoy Driver software you may:
+
+10. freely distribute the Envoy Viewer (Runtime Viewer or Distributable Viewer) with an Envoy file developed using the Envoy Driver provided you (a) do not use the logo, name, or trademarks of Corel or its licensors (b) include a valid copyright notice on media containing the Viewer, and (c) indemnify Corel and its licensors against any claims or lawsuits arising from your use or distribution of the Viewer as part of the Envoy file you distribute.  Envoy Driver means the Driver that enables you to create Envoy files from within other applications.  Envoy Distributable Viewer means the viewer that allows you to view and manipulate the Envoy file.  Envoy Runtime Viewer means the viewer that, when bound to an Envoy file, enables you to view the Envoy file.  You are responsible for all primary technical support to the end user of any Viewer you distribute.
+
+If this Product contains Trellix software you may:
+
+11. install and use one copy of the Program on a single computer. The primary user of the computer on which the Program is installed may install the program for his or her exclusive use on a single portable computer. Notwithstanding the foregoing, you may duplicate or make copies of the "Viewers Setup.exe" file and distribute those copies to others for their use, solely for the purpose of viewing Trellix documents you have created. The Viewers Setup.exe file must be unmodified , include the EULA contained in the file, and retain any legal notices associated with such file. Trellix Corporation and Corel assume no responsibility or liability for the distribution of such copies. You may also distribute Trelligram files produced by the Trelligram creator program, a component of the Program to third parties solely for the purpose of enabling such third parties to view the user materials packaged in such files, provided that you have the requisite rights or permission to distribute such materials. You (and not 
+Corel or Trellix Corporation) assume all responsibility and liability for the content of such materials and for suitability of the Program for the recipient of such materials.
+
+If this Product includes Corel WEB.SiteBuilder in which the Perl Interpreter is incorporated you may:
+
+12. freely distribute the Perl Interpreter included with Corel WEB.SiteBuilder under the conditions of the GNU GENERAL PUBLIC LICENSE.  You may obtain additional information by reading the License.txt file in the SiteBuilder\Per\docs\Perl directory.  
+
+NOTE:	
+Corel products that provide PDF and/or TIFF-LZW and/or GIF and/or Postscript-LZW and/or LZW graphics capability utilize technology covered by U.S. Patent No. 4,558,302, and all foreign counterparts ("Unisys Patent").  The license granted to You hereunder permits you to use the Unisys Patent in conjunction with your use of this Product only.  Use of any other product or the performance of any other activity involving the compression/decompression technology covered by the Unisys Patent requires a separate license from Unisys Corporation.
+
+C. YOU MAY NOT:  
+1. use the Product or make copies of it except as permitted in this License. 
+2. translate, reverse engineer, decompile, or disassemble the Product except to the extent the foregoing restriction is expressly prohibited by applicable law.
+3. rent, lease, assign, or transfer the Product except as set out in paragraph B above.
+4. modify the Product or merge all or any part of the Product with another program.
+5. redistribute the fonts or sound files included with the Product
+6. separate the component parts of the Product for use on more than one computer.
+
+If this Product contains bitmap house plans provided by Home Design Alternatives:
+
+7. you may not use any of the bitmap house plans provided by Home Design Alternatives for any purpose other than viewing.
+
+If this Product is OEM:
+
+8. you may not use or copy the Product if you received the Product as a standalone. The Product must be purchased in conjunction with the Corel approved partner products or services described in the Warning located on the Product storage media.
+
+D. TERM:  
+This license shall remain in effect only for so long as you are in compliance with the terms and conditions of this agreement. This license will terminate if you fail to comply with any of its terms or conditions.  You agree, upon termination, to destroy all copies of the Product.  The Limitations of Warranties and Liability set out below shall continue in force even after any termination.
+
+E. WARRANTY: 
+WE WARRANT THAT THE STORAGE MEDIA IN THIS PRODUCT WILL BE FREE FROM DEFECT IN MATERIALS AND WORKMANSHIP FOR NINETY (90) DAYS FROM THE DATE YOU ACQUIRE IT.  IF SUCH A DEFECT OCCURS, RETURN THE MEDIA TO US AT, COREL CUSTOMER SERVICE, 1600 CARLING AVENUE, OTTAWA, ONTARIO, CANADA, K1Z 8R7, AND WE WILL REPLACE IT FREE OF CHARGE.  THIS REMEDY IS YOUR EXCLUSIVE REMEDY FOR BREACH OF THIS WARRANTY.  IT GIVES YOU CERTAIN RIGHTS AND YOU MAY HAVE OTHER LEGISLATED RIGHTS WHICH MAY VARY FROM JURISDICTION TO JURISDICTION.
+	
+F. LIMITATION OF WARRANTIES AND LIABILITY:   
+EXCEPT FOR THE EXPRESS WARRANTY ABOVE , THE PRODUCT IS PROVIDED ON AN "AS IS" BASIS, WITHOUT ANY OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABLE QUALITY, SATISFACTORY QUALITY, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OR THOSE ARISING BY LAW, STATUTE, USAGE OF TRADE, COURSE OF DEALING OR OTHERWISE.  THE ENTIRE RISK AS TO THE RESULTS AND PERFORMANCE OF THE PRODUCT IS ASSUMED BY YOU.  NEITHER WE NOR OUR DEALERS OR SUPPLIERS SHALL HAVE ANY LIABILITY TO YOU OR ANY OTHER PERSON OR ENTITY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, BUT NOT LIMITED TO, LOSS OF REVENUE OR PROFIT, LOST OR DAMAGED DATA OR OTHER COMMERCIAL OR ECONOMIC LOSS, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR THEY ARE FORESEEABLE.  WE ARE ALSO NOT RESPONSIBLE FOR CLAIMS BY A THIRD PARTY.  OUR MAXIMUM AGGREGATE LIABILITY TO YOU AND THAT OF OUR DEALERS AND SUPPLIERS SHALL NOT EXCEED THE AMOUNT PAID BY YOU FOR THE PRODUCT.  THE LIMITATIONS IN THIS SECTION SHALL APPLY WHETHER OR NOT THE ALLEGED BREACH OR DEFAULT IS A BREACH OF A FUNDAMENTAL CONDITION OR TERM OR A FUNDAMENTAL BREACH.  SOME STATES/COUNTRIES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+If this Product includes speech recognition software the following disclaimer is included as part of the license:
+
+IT IS UNDERSTOOD BY YOU THAT SPEECH RECOGNITION IS A STATISTICAL PROCESS, THAT RECOGNITION ERRORS ARE INHERENT IN THE PROCESS OF SPEECH RECOGNITION, AND THAT SPEECH RECOGNITION APPLICATIONS MUST BE DESIGNED TO ALLOW FOR SUCH ERRORS IN THE RECOGNITION PROCESS.  YOU UNDERSTAND THAT SUCH ERRORS ARE INEVITABLE AND THAT IT IS YOUR RESPONSIBILITY TO CORRECT RECOGNITION ERRORS BEFORE USING THE RESULTS OF THE RECOGNITION.
+
+G. U.S. GOVERNMENT RIGHTS: 
+With respect to any acquisition of the Product by or for any unit or agency of the United States Government (the "Government"), the Product shall be classified as "commercial computer software", as that term is defined in the applicable provisions of the Federal Acquisition Regulation (the "FAR") and supplements thereto, including the Department of Defense (DoD) FAR Supplement (the "DFARS").  The Product was developed entirely at private expense, and no part of the Product was first produced in the performance of a Government contract.  If the Product  is supplied for use by DoD, the Product  is delivered subject to the terms of this Agreement and either (i) in accordance with DFARS 227.7202-1(a) and 227.7202-3(a), or (ii) with restricted rights in accordance with DFARS 252-227-7013 (c)(1)(ii)(OCT 1988), as applicable. If the Product is supplied for use by a Federal agency other than DoD, the Product  is restricted computer software delivered subject to the terms of this Agreement and (i) FAR 12.212(a); (ii) FAR 52.227-19; or (iii) FAR 52.227-14(ALT III), as applicable.  The contractor/manufacturer is Corel Corporation Limited, Europa House, 3rd Floor, Harcourt Street, Dublin 2, Ireland.
+
+If this product includes Dragon NaturallySpeaking(tm) software the following is applicable to such software:
+H. RESTRICTED RIGHTS RELATED TO DRAGON SOFTWARE: 
+If the Software is acquired by or on behalf of a unit or agency of the United States Government, the government agrees that such Software is "commercial computer software" and that absent a written agreement to the contrary, the government's rights with respect to such Software are limited by the terms of this License Agreement, pursuant to FAR 12.212(a) and/or DFARS 227.7202-1(a), as applicable.
+
+I. EXPORT CONTROLS:  
+If the Product is identified as a  not-for-export product (for example, on the box, media or in the installation process), then, unless you have exemption from the United States Department of Commerce or other regulatory authority as designated from time to time the following applies:  EXCEPT FOR EXPORT TO CANADA FOR USE IN CANADA BY CANADIAN CITIZENS, THE PROGRAM MAY NOT BE EXPORTED OUTSIDE OF THE UNITED STATES OR TO ANY FOREIGN ENTITY OR "FOREIGN PERSON" AS DEFINED BY THE U.S. GOVERNMENT REGULATIONS, INCLUDING WITHOUT LIMITATION, ANYONE WHO IS NOT A CITIZEN, NATIONAL OR LAWFUL PERMANENT RESIDENT OF THE UNITED STATES. BY AGREEING TO THE TERMS OF THIS LICENSE YOU ARE WARRANTING TO COREL THAT YOU ARE NOT A "FOREIGN PERSON" OR UNDER THE CONTROL OF A "FOREIGN PERSON".
+
+J. GENERAL:  
+This License is the entire agreement between us, superseding any other agreement or discussions, oral or written, and may not be changed except by a signed agreement. This License shall be governed by and construed  in accordance with the laws of the Province of Ontario, Canada for product purchased in Canada and by the laws of the Republic of Ireland for product purchased outside of Canada, excluding that body of law applicable to choice of law and excluding the United Nations Convention on Contracts for the International Sale of Goods and any legislation implementing such Convention, if otherwise applicable. If any provision of this License is declared by a Court of competent jurisdiction to be invalid, illegal, or unenforceable, such a provision shall be severed from the License and the other provisions shall remain in full force and effect. The parties have requested that this Agreement and all documents contemplated hereby be drawn up in English. Les parties aux présentes ont exigé que cette entente et tous autres documents envisagés par les présentes soient rédigés en anglais.  
+
+
+COREL GUIDELINES FOR THE USE OF 
+CLIPART AND STOCK PHOTO IMAGES
+
+Corel products contain numerous clipart and photo images (collectively referred to as the "Images")  which are either owned by Corel or licensed from a third-party.  As a user of Corel products you are free to use, modify and publish the Images as you wish subject to the restrictions set out below.  If you are uncertain as to whether your intended use is in compliance with the Guidelines set out below, we recommend that you seek the advice of your own attorney or legal counsel.  Corel will not provide you with an opinion as to whether your use is in compliance with these Guidelines.
+
+
+A.	YOU MAY, subject to any restrictions set out below:
+
+1.	incorporate any Image(s) into your own original work and publish, display and distribute your work in any media; provided you include a copyright notice in your work reflecting on the copyright ownership of both you and Corel as follows:
+
+	"Copyright (c) 200__ [your name] and its licensors. All rights reserved."
+
+	You may not, however, resell, sublicense or otherwise make available the Image(s) for use or distribution separately or detached from a product or web page.   For example, the Image(s) may be used as  part of a web page design, but may not be made available for downloading separately or in a format designed or intended for permanent storage or re-use by others.  Similarly, clients may be provided with copies of the Image(s) (including digital files) as an integral part of a work product, but may not be provided with the Image(s) or permitted to use the Image(s) separately or as part of any other product;
+2.	make one (1) copy of the Image(s) for backup or archival purposes.
+
+B.  YOU MAY NOT
+
+1.	create scandalous, obscene, defamatory or immoral works using the Image(s) nor use the Image(s) for any other purpose which is prohibited by law;
+2.	use or permit the use of the Image(s) or any part thereof as a trademark or service mark, or claim any proprietary rights of any sort in the Image(s) or any part thereof;
+3.	use any of the Images related to identifiable individuals or entities for any commercial purpose or in a manner which suggests their association with or endorsement of any product or service;
+4.	use the Image(s) in electronic format, on-line or in multimedia applications unless the Image(s) are incorporated for viewing purposes only and no permission is given to download and/or save the Image(s) for any reason.
+5.	rent, lease, sublicense or lend the Image(s), or a copy thereof, to another person or legal entity.  You may, however, transfer all your license to use the Image(s) to another person or legal entity, provided that (i) you transfer the Image(s) and this License, including all copies (except copies incorporated into your work product as permitted under this License), to such person or entity, (ii) that you retain no copies, including copies stored on a computer or other storage device, and (iii) the receiving party agrees to be bound by the terms and conditions of this License;
+6.	use any Image(s) except as expressly permitted by this License.
+
+Government Crests, Seals and other Insignia
+
+The national and municipal insignia contained in this product are protected by various laws against misuse.  Generally speaking, all logos, insignia, patches, seals, flags and coats of arms are for official use only.  It is your responsibility to obey all national and international laws regulating display of the insignia, seals, flags and coats of arms contained herein.
+			
+
+TRIAL VERSION ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+
+IF THIS PRODUCT IS IDENTIFIED AS A TRIAL VERSION, YOUR USE OF THE TRIAL VERSION PRODUCT IS GOVERNED BY THE TERMS OF THE GENERAL LICENSE AGREEMENT AS MODIFIED BY THE TERMS OF THIS TRIAL VERSION ADDENDUM.  IN THE EVENT OF ANY CONFLICT BETWEEN THE TERMS OF THE GENERAL LICENSE AGREEMENT AND THIS TRIAL VERSION ADDENDUM, THE TERMS OF THE TRIAL VERSION ADDENDUM SHALL GOVERN.
+
+THE PRODUCT IS A _____________ DAY TRIAL VERSION ONLY AND WILL BECOME INOPERABLE _______________________ AFTER INSTALLATION.  AFTER THIS DATE, YOU WILL NOT BE ABLE TO ACCESS ANY FILES CREATED WITH THIS TRIAL VERSION UNLESS YOU HAVE INSTALLED A RETAIL VERSION OF THE PRODUCT.
+
+THIS TRIAL VERSION WILL BE BECOME COMPLETELY INOPERABLE ON ___________________________, 200___, REGARDLESS OF THE DATE OF INSTALLATION BY YOU.
+
+THIS TRIAL VERSION CONTAINS A LIMITED NUMBER OF MAJOR MODULE(S) INCLUDED IN THE RETAIL VERSION OF THE PRODUCT AND THESE ARE THE ONLY MODULE(S) YOU WILL BE ABLE TO INSTALL.  EXTRA VALUE COMPONENTS AND APPLICATIONS OF THE RETAIL VERSION OF THE PRODUCT ARE NOT INCLUDED.  ALL REFERENCES TO OTHER APPLICATIONS, EXTRA LIBRARIES OR OTHER CD-ROMS THAT MAY APPEAR IN THIS TRIAL VERSION OF THE PRODUCT ARE NOT APPLICABLE.
+
+YOU ARE GRANTED A  LICENSE TO USE THE TRIAL VERSION OF THE PRODUCT ONLY.  SUCH LICENSE SHALL CONTINUE FOR THE PERIOD SET OUT ABOVE, AFTER WHICH TIME YOUR LICENSE TO USE THE TRIAL VERSION SHALL TERMINATE.
+
+ANY ATTEMPT TO CIRCUMVENT ANY EXPIRY DATE TECHNOLOGY/TIME BOMB MECHANISM OR OTHER MECHANISM CONTAINED WITHIN THE SOFTWARE WHICH IS INTENDED TO LIMIT YOUR ABILITY TO USE THE SOFTWARE TO A SPECIFIED PERIOD IS A VIOLATION OF THIS LICENSE. ANY ATTEMPT TO CIRCUMVENT ANY SUCH EXPIRY DATE TECHNOLOGY/TIME BOMB MECHANISM SHALL RESULT IN THE IMMEDIATE TERMINATION OF YOUR LICENSE TO USE THE SOFTWARE.
+
+
+ACADEMIC EDITION ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+
+IF THIS PRODUCT IS IDENTIFIED AS AN ACADEMIC EDITION, YOUR USE OF THIS PRODUCT IS GOVERNED BY THE TERMS OF THE GENERAL LICENSE AGREEMENT AS MODIFIED BY THE TERMS OF THIS ACADEMIC EDITION ADDENDUM TO THE GENERAL LICENSE AGREEMENT.  IN THE EVENT OF ANY CONFLICT BETWEEN THE TERMS OF THE GENERAL LICENSE AGREEMENT AND THIS ACADEMIC EDITION ADDENDUM, THE TERMS OF THIS ACADEMIC ADDENDUM TO THE GENERAL LICENSE AGREEMENT SHALL  GOVERN.   
+
+NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THE GENERAL LICENSE AGREEMENT, YOU MAY NOT TRANSFER OR ASSIGN THE PRODUCT OR ANY COPY THEREOF, OR YOUR LICENSE TO USE THE PRODUCT TO A THIRD PARTY.
+
+If you have purchased this Product as part of the Student Campus Reward Option for Learning (SCROL) Program, paragraph D of the General License Agreement shall be deleted and replaced with the following:
+D. TERM: This license shall remain in effect only for so long as you are a registered full-time student or a faculty member at an accredited higher education institution. This license shall terminate in the event you are no longer a registered full-time student or a faculty member at an accredited higher education institution.  For the purposes of this License, "accredited higher education institution" shall mean either a publicly or privately owned vocational or correspondence school;   junior college; college; university or scientific or technical institute recognized by the appropriate ministry or department of education.  In addition this License will terminate if you fail to comply with any of its terms or conditions.  You agree, upon termination, to destroy all copies of the Product.  The Limitations of Warranties and Liability set out below shall continue in force even after any termination.
+
+OEM EDITION ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+
+OEM PRODUCT IS SOLD UNDER LICENSE IN CONJUNCTION WITH COREL APPROVED PARTNER PRODUCTS OR SERVICES WHICH ARE DESCRIBED IN THE WARNING LOCATED ON THE STORAGE MEDIA. IF THIS PRODUCT IS IDENTIFIED AS AN OEM EDITION, YOUR USE OF THIS PRODUCT IS GOVERNED BY THE TERMS OF THE GENERAL LICENSE AGREEMENT AS MODIFIED BY THE TERMS OF THIS OEM EDITION ADDENDUM TO THE GENERAL LICENSE AGREEMENT. IN THE EVENT OF ANY CONFLICT BETWEEN THE TERMS OF THE GENERAL LICENSE AGREEMENT AND THIS OEM EDITION ADDENDUM, THE TERMS OF THIS OEM ADDENDUM TO THE GENERAL LICENSE AGREEMENT SHALL GOVERN.
+
+NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THE GENERAL LICENSE AGREEMENT, YOU MAY NOT TRANSFER OR ASSIGN THE PRODUCT OR ANY COPY THEREOF, OR YOUR LICENSE TO USE THE PRODUCT TO A THIRD PARTY.
+
+
+SDK ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+
+IF THIS PRODUCT CONTAINS A COREL SOFTWARE DEVELOPER'S TOOLKIT ("SDK"), YOUR USE OF THE SDK PORTION OF THE PRODUCT IS GOVERNED BY THE TERMS OF THE GENERAL LICENSE AGREEMENT AS MODIFIED BY THE TERMS OF THIS SDK ADDENDUM TO THE GENERAL LICENSE AGREEMENT.  IN THE EVENT OF ANY CONFLICT BETWEEN THE TERMS OF THE GENERAL LICENSE AGREEMENT AND THIS SDK ADDENDUM, THE TERMS OF THIS SDK ADDENDUM TO THE GENERAL LICENSE AGREEMENT SHALL GOVERN.
+
+It is Corel's intention in designing the Software Developer's Kit to make it compatible with other versions of the Software Developer's Kit. However, since it is constantly being modified and reorganized, with certain capabilities added to or eliminated from any particular version or product, Corel makes no representations or warranties concerning compatibility with other versions or products.
+
+You are solely responsible for determining the usefulness of the Software Developer's Kit for your particular purpose. The Software Developer's Kit is provided to software developers with the expectation that the developers are capable of writing and debugging their own programs; Corel does not assume any support obligations with respect to the Software Developer's Kit or the use thereof.  Any research, development, or evaluations you perform is done entirely at your own risk.
+
+YOU MAY: 
+1. use the SDK solely for the purpose of developing, manufacturing, marketing and supporting one or more applications software package(s) ("Software Application Product").
+2. reproduce and sublicense the software program files included in the SDK's 'Redistributables' folder ("SDK files"), provided the files are in executable format and incorporated into a Software Application Product developed by you. Any sublicense of the SDK files shall be granted solely for the use of these SDK files in connection with and as a sublicensed part of a Software Application Product for any support, service, upgrades or other assistance.
+
+YOU MAY NOT: 
+1. remove or alter any copyright notice, trademark, or other proprietary rights notice placed by Corel on the SDK or any portion thereof.
+
+INDEMNIFICATION:  You agree to indemnify and hold Corel harmless from and against any and all costs,  liabilities, claims, or demands (including reasonable attorney's fees and expenses of any kind whatsoever) that arise or result from the use, reproduction or distribution of your Software Application Product, documentation, or promotional or sales materials.
+
+COREL TRADEMARKS AND TRADENAMES:  You may not refer to Corel or include any Corel trademarks in or on any material except for the sole purpose of stating that a Software Application Product may be utilized in connection with the specific Corel software product.  In the event you refer to Corel or include the trademarks in or on any program materials or any packaging, marketing, or advertising materials, the trade name or trademarks must be accompanied with the following footnote disclaimer printed in a clearly legible manner on the same page in no smaller than ten-point type:
+
+"This product is not manufactured, approved, or supported by Corel Corporation or Corel Corporation Limited."
+
+
+
+BETA VERSION ADDENDUM TO THE GENERAL LICENSE AGREEMENT
+
+IF THIS PRODUCT IS IDENTIFIED AS A BETA VERSION, YOUR USE OF THIS PRODUCT IS GOVERNED BY THE TERMS OF THE GENERAL LICENSE AGREEMENT AS MODIFIED BY THE TERMS OF THIS BETA VERSION ADDENDUM TO THE GENERAL LICENSE AGREEMENT.  IN THE EVENT OF ANY CONFLICT BETWEEN THE TERMS OF THE GENERAL LICENSE AGREEMENT AND THIS BETA VERSION ADDENDUM, THE TERMS OF THIS BETA VERSION ADDENDUM TO THE GENERAL LICENSE AGREEMENT SHALL GOVERN.  IN THE EVENT THAT YOU ARE AN AUTHORIZED COREL BETA TEST SITE AND HAVE BEEN AUTHORIZED TO TEST A BETA VERSION PRODUCT THAT HAS NOT BEEN MADE PUBLICLY AVAILABLE BY COREL, YOUR USE OF THE BETA VERSION PRODUCT SHALL BE GOVERNED BY THE TERMS OF THE BETA TEST SITE LICENSE AGREEMENT ENTERED INTO BETWEEN COREL AND YOURSELF AND THE PROVISIONS SET OUT BELOW SHALL NOT APPLY.
+
+LICENSE GRANT: Corel grants to you a non-exclusive license to use the Product for evaluation and trial purposes only for a limited time.  This license does not entitle you to hard-copy documentation, support or telephone assistance.  While Corel intends to distribute a commercial release of the Product, Corel reserves the right at any time not to release a commercial release of the Product or, if released, to alter prices, features, licensing terms, or other characteristics of the commercial release.
+
+TERMINATION: The license granted under this Beta Addendum will terminate thirty (30) days following Corel's release of a commercial release of the Product.  The license will terminate automatically if you fail to comply with the limitations described herein.  You must destroy all copies of the Product upon termination.
+
+DISCLAIMER OF WARRANTIES: USER ACKNOWLEDGES THAT THE PRODUCT IS A  PRE-RELEASE PRODUCT AND IS  PROVIDED ON AN "AS IS" BASIS AND WITHOUT WARRANTY.  THE PRODUCT MAY CONTAIN BUGS, ERRORS AND OTHER PROBLEMS THAT COULD CAUSE SYSTEM FAILURES OR MAY NOT PERFORM ALL FUNCTIONS FOR WHICH IT IS INTENDED OR REPRESENTED AND THE USE OF THE PRODUCT IS ENTIRELY AT THE USER'S RISK. THIS DISCLAIMER IS IN LIEU OF ALL WARRANTIES WHETHER EXPRESS OR IMPLIED, ARISING BY STATUTE, OPERATION OF LAW OR OTHERWISE, INCLUDING IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY, SATISFACTORY QUALITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+
+
+ATTUNE SOFTWARE LICENSE AGREEMENT AND LIMITED WARRANTY
+
+By using Attune (the "Software") you agree to be bound by all the terms and conditions of this license agreement. This license is effective until terminated. If you do not accept or agree to these terms you may terminate the license at any time by removing the Software from the memory of the computer on which the Software has been installed. This license will be terminated immediately and without notice in the event that you fail to comply with any term or condition hereof.
+
+Aveo Inc. ("Aveo") grants you ("Licensee") a non-exclusive license to use the Software with a single computer at a single location. This license is not a sale of the Software or any copy thereof. Aveo retains title and ownership of the Software and all copies, regardless of the form or media on or in which the original or any copy may exist. Aveo retains all rights to the Software and accompanying documentation (the "Documentation") not specifically granted to Licensee. The Software and the Documentation are copyrighted. Licensee may not copy, or encourage or allow copying of, the Software or Documentation.
+
+By accepting this Agreement, you understand and accept that the Software is designed to automatically download updates to the Software when you are connected to the Internet, and will establish the legitimate source of the Software with the Attune Server.  This automatic updating will occur in the background while you are connected.  It can be disabled, at your discretion, although the default configuration is to allow updates.  If you want to disable this feature, right-click on the Attune system application tray icon and choose "Disable Attune."  This icon is typically found on the right-hand side or bottom of the start menu taskbar.
+
+You may not modify, reverse-engineer, decompile, create other works from, or disassemble the software. Similarly, you may not copy, modify, adapt or create other works based upon the Documentation. You may not transfer, convey, rent, sublicense or otherwise distribute the Software or Documentation, or any rights therein to any person or entity. Any attempt to
+distribute the Software or Documentation shall be void.
+
+THIS SOFTWARE IS LICENSED "AS IS." AVEO MAKES NO WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY OF FITNESS FOR A PARTICULAR PURPOSE, REGARDING THE SOFTWARE. AVEO DOES NOT WARRANT, GUARANTEE OR MAKE ANY REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE SOFTWARE IN TERMS OF ITS CORRECTNESS, ACCURACY, RELIABILITY, CURRENTNESS OR OTHERWISE. THE ENTIRE RISK AS TO RESULTS AND PERFORMANCE OF THE SOFTWARE, AND ITS INTERACTION WITH OTHER EQUIPMENT OR SOFTWARE OWNED OR USED BY YOU, IS ASSUMED BY YOU. THE EXCLUSION OF IMPLIED WARRANTIES
+IS NOT PERMITTED BY SOME STATES. THE ABOVE EXCLUSION MAY NOT APPLY TO YOU.
+
+IN NO EVENT WILL AVEO, AND ITS DIRECTORS, OFFICERS OR AGENTS (COLLECTIVELY AVEO) BE LIABLE TO YOU FOR ANY CONSEQUENTIAL, INCIDENTAL OR INDIRECT DAMAGES (INCLUDING DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, AND THE LIKE) ARISING OUT OF THE USE OR THE INABILITY TO USE THE SOFTWARE EVEN IF AVEO INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL DAMAGES, THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+
+Aveo's liability to you for actual damages from any cause whatsoever, and regardless of the form of action (whether in contract, tort (including negligence), product liability or otherwise), will be limited to $50.
+
+
+
+Revised: March 2001

@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>dtree</title>
+		<link rel="StyleSheet" href="dtree.css" type="text/css" />
+		<script type="text/javascript" src="dtree.js"></script>
+		<script src="jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div class="bot1">
+			<div class="left3">
+				<div class="dtree" id="dtree_div">
+					<script type="text/javascript">
+						d = new dTree('d', true); //参数一: 树名称。参数二：单选多选 true多选  false单选  默认单选               
+						d.add(0, -1, '权限管理');
+						d.add(1, 0, 'authority', '0001', '技术公司 ', true, false);
+						d.add(15, 1, 'authority', '0006', '系统保障部', false, false);
+						d.add(16, 1, 'authority', '0007', '系统运行部', false, false);
+						d.add(17, 1, 'authority', '0008', '基础设施部', false, false);
+						d.add(18, 1, 'authority', '0009', '交易系统部', false, false);
+						d.add(19, 1, 'authority', '0007', '测试中心', false, false);
+						d.add(20, 1, 'authority', '0008', '安全质管部', false, false);
+						d.add(21, 1, 'authority', '0006', '创新实验室', false, false);
+						d.add(22, 1, 'authority', '0007', '技术公司工会办公室', false, false);
+						d.add(23, 1, 'authority', '0008', '系统保障部', false, false);
+						d.add(24, 1, 'authority', '0006', '系统运行部', false, false);
+						d.add(25, 1, 'authority', '0007', '系统运行部', false, false);
+						d.add(26, 1, 'authority', '0008', '基础设施部', false, false);
+						d.add(27, 1, 'authority', '0008', '交易系统部', false, false);
+						d.add(28, 1, 'authority', '0008', '测试中心', false, false);
+						d.add(29, 1, 'authority', '0008', '安全质管部', false, false);
+						d.add(30, 1, 'authority', '0008', '创新实验室', false, false);
+						d.add(31, 1, 'authority', '0009', '交易系统部', false, false);
+						d.add(32, 1, 'authority', '0007', '测试中心', false, false);
+						d.add(33, 1, 'authority', '0008', '安全质管部', false, false);
+						d.add(34, 1, 'authority', '0006', '创新实验室', false, false);
+						d.add(35, 1, 'authority', '0007', '技术公司工会办公室', false, false);
+						d.add(36, 1, 'authority', '0008', '系统保障部', false, false);
+						d.add(37, 1, 'authority', '0006', '系统运行部', false, false);
+						d.add(38, 1, 'authority', '0007', '系统运行部', false, false);
+						d.add(39, 1, 'authority', '0008', '基础设施部', false, false);
+						d.add(40, 1, 'authority', '0008', '交易系统部', false, false);
+						d.add(41, 1, 'authority', '0008', '测试中心', false, false);
+						d.add(42, 1, 'authority', '0008', '安全质管部', false, false);
+						d.add(43, 1, 'authority', '0008', '创新实验室', false, false);
+						console.log(d)
+						document.write(d);
+						d.openAll();
+					</script>
+				</div>
+			</div>
+			<div class="mid1">
+				<img src="images/74.png" alt="" class="imgBtn2">
+				<img src="images/75.png" alt="" class="imgBtn1">
+			</div>
+			<div class="right3">
+				<ul class="ul">
+
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+	"pages": [
+    "pages/login/login",
+    "pages/main/main",
+		"pages/groups/groups",
+		"pages/groupChatRoom/groupChatRoom"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black"
+	}
+}

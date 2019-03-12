@@ -1,0 +1,127 @@
+﻿1.Ifame跨域
+父
+        window.addEventListener('message',function(e){
+            document.querySelector('.mask').style.display = "none"
+            document.querySelector('iframe').style.display = "none"
+        },false);
+子
+        function change () {            
+            console.log('fewjfw')
+            window.parent.postMessage('yuyuyu','*');
+        }
+
+
+
+2.vue父向子传递事件
+父组件中：
+	<input ref="one">
+	this.$ref.one.事件名（）
+子组件中：
+	事件名（）
+
+
+
+3.vue提交表单
+	如：
+<form action="" method="post" name="datas">
+	<textarea name="datas" rows="" cols="" v-model="form.name"></textarea>
+</form>
+	textarea需要提交：
+	第一步：data里return一个form对象
+		form:{字段名（msg1）:"",msg2:""...}
+	第二步：textarea里v-model绑定v-model="msg1"
+	第三部：给提交按钮添加事件，在事件里
+		定义一个对象比如:
+			let obj={字段名（msg1）:this.form.msg1....}
+	第四部：在事件里ajax提交
+		$.ajax({
+			type:""（传输方式：get/post）
+			data:obj(上面定义的对象名)
+			url:''(后台给的接口，跨域的话需要配置)
+			success:function(data){console.log(“成功”)}，
+			error:function(e){console.log("错误")}
+		})
+
+
+4.axios请求后台接口：
+	axios.post("后台接口地址，跨域拼接").then((res)=>{console.log(成功)}).catch(function(error){console.log(错误)})
+	若后台接口为http://192.168.20.74:8080/api/quotaCfg/departTree，在proxytable里"/api"target地址设为:http://192.168.20.74:8080/api，在请求数据出、处axios.post("/api/quotaCfg/departTree")
+
+
+
+5.vue中父向子传值
+	父组件中
+		<子组件名 :msg="要传的数据"></子组件名>
+	子组件中
+		{{变量名（msg）}}
+		export default{
+			props:{变量名：Number,String...(数据类型)}
+		}
+
+
+6.git  
+	git先更新 pull
+	提交  dev commit
+	步骤  不管是更新代码还是提交都先pull
+		
+
+7.XX:function(){}
+	方法调用：   xx()
+
+
+8.vue环境搭建
+	一：yarn add cli安装脚手架
+	二：vue init webpack 项目名 安装webpack打包工具
+	三：安装完成   axios,vue-rousers等yarn add 或在packjson里添加，然后yarn 
+9. vuex使用方法
+	1.建立store文件夹，文件夹下四个文件mutations actions state index   .js
+	2.index.js里import vue,vuex并使用vue.use(vuex)
+	3.index.js引入mutations,actions,state
+	4.index.js创建store export default new Store({mutations,actions,state})
+	5.mutations.js文件里写方法  const mutations={setData(state,data){state.(state存的数据名)=data}}并输出export default mutations
+	6.state里定义数据名 const state={id:null,}并输出export default state
+	7.actions里引入定义方法async function getData(){ let res=await axios.post(属性名)  rerutn res}  const actions={getData({commit}){ getData.getData().then(res=>{commit("setData","this.data")}).catch(err=>{console.log(err)}) }}并输出actions
+	8.在需要数据的目录下引入import {mapMutations,mapActions,mapState} from vuex
+10.基本数据类型转换
+	转换为数字：Number()   转换为字符串：String()  转换为布尔值：Blooean()
+11.数组，对象，json相互转换
+	数组转对象：arr[i]=obj[i]
+	对象转数组：var arr = []
+			for (let i in obj) {
+    				arr.push(obj[i]); //属性
+    				//arr.push(obj[i]); //值
+			}
+		console.log(arr);
+	数组转json：JSON.stringify( arr ); JSON.stringify( arr );
+	json转数组：同对象转数组
+	对象转json:JSON.stringify(obj)  JSON.stringify( arr );
+	Json转对象：
+12.sessionStorage与localStorage与cookie存储数据区别与方法
+	localStorage：本地存储，除非手动清楚缓存，否则永远存在，数据大小一般为5Mb,仅在客户端也就是浏览器中保存，不参与服务器传递
+	sessionStorage:本地存储，仅在当前回话有效，关闭页面或者退出浏览器自动清空，数据大小一般为5Mb,仅在客户端也就是浏览器中保存，不参与服务器传递
+	cookie：必须设置销毁时间，在销毁时间内即使关闭页面或者退出浏览器也不会清除。存放数据大小一般为4k左右且有个数限制，不同浏览器限制个数不同，一般不超过20个，与服务端通信，会携带在http头中
+	localStorage用法：
+		设置一个localStorage：localStorage.setItem("键名",值)
+		获取一个localStorage：localStorage.getItem("键名")
+		清除一个localStorage：localStorage.removeItem("键名")
+		清除所有localStorage：localStorage.clear()
+	sessionStorage用法：	
+		设置一个sessionStorage：sessionStorage.setItem("键名"，值)
+                	获取一个sessionStorage：sessionStorage.getItem("键名")
+		清除一个sessionStorage:sessionStorage.removeItem("键名")
+		清除所有sessionStorage:sessionStorage.clear()
+	cookie用法：
+		网址：https://blog.csdn.net/qq_33168578/article/details/79760861
+		设置cookie：setCookie('键名', 键值,过期时间)      
+		获取cookie：getCookie  ('键名')
+
+          
+		删除cookie：delCookie('键名')
+
+13.vue失去焦点触发事件方法  @blur="事件名"
+
+14.vue  ui生态
+	pc端：IVIEW,Element
+	h5端：vant,mintui
+	混合开发：weexui,bui-weex
+	微信小程序：iview Weapp,zanui

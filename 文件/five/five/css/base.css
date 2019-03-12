@@ -1,0 +1,145 @@
+body {
+
+   -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+/*禁止文本缩放 字体设置  取消touch高亮效果*/
+
+html {
+
+    width: 100%;
+
+    height: 100%;
+
+   margin: 0px;
+
+   padding: 0px;
+
+   -webkit-text-size-adjust: 100%;
+
+   font-family: -apple-system, "PingFang SC","Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    background: transparent;
+
+   }
+
+body {
+
+    width: 100%;
+
+    height: 100%;
+
+   -webkit-overflow-scrolling: touch;
+
+ }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, sumary {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+/*清除输入框内阴影*/
+
+input, select,textarea {
+
+border: 0;
+
+-webkit-appearance: none;
+
+appearance:none;
+
+}
+
+ol, ul {
+
+    list-style: none;
+
+}
+
+/*//禁止选中文本内容*/
+
+*:not(input) {
+    -webkit-user-select: none;
+}
+
+*:not(select) {
+    -webkit-user-select: none;
+}
+
+*:not(textarea) {
+
+    -webkit-user-select: none;
+
+}
+/*禁用长按页面时的弹出菜单(iOS下有效) ,img和a标签都要加*/
+
+img,a{
+
+-webkit-touch-callout:none;
+
+}
+
+a,a:active,a:hover {
+
+text-decoration: none;
+
+}
+
+/*去掉点击链接和文本框对象时默认的灰色半透明覆盖层(iOS)或者虚框(Android)*/
+
+a,button,input,textarea{ 
+
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+
+}
+img{
+	display: block;
+	/*
+	解决移动端三像素问题
+	*/
+}
+a{
+	color:#333;
+}
+
+#foot {
+  height: 1.275rem;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#foot a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+[data-dpr=2] #foot a {
+  font-size: 26px;
+}
+[data-dpr=3] #foot a {
+  font-size: 39px;
+}
+#foot a i {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: url(../images/foot.png) no-repeat 0 -1rem;
+  background-size: 100% 1000%;
+}

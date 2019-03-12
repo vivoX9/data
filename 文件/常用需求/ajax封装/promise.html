@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+	</head>
+	<body>
+		<div class="box">是是是</div>
+		<script src="index.js"></script>
+		<script type="text/javascript">
+			//switch case
+			// 			var i = 5;
+			// 			switch (i) {
+			// 				case 0:
+			// 					console.log(132)
+			// 					break;
+			// 				case 1:
+			// 					console.log(1552)
+			// 					break;
+			// 				default:
+			// 					console.log(21122)
+			// 					break;
+			// 			}
+			//Math.random
+			// console.log(Math.random())
+			//ajax
+			// window.XMLHttpRequest是判断浏览器支不支持XMLHttpRequset
+// 			function ajax(options) {
+// 				// 创建对象
+// 				var xhr = null;
+// 				// var params=data(options.data)
+// 				var params=options.data
+// 				if (window.XMLHttpRequest) {
+// 					xhr = new XMLHttpRequest()
+// 					// ie7+
+// 
+// 				} else {
+// 					//ie5,6
+// 					xhr = new ActiveXObject("Microsoft.XMLHTTP")
+// 				}
+// 				// 连接
+// 				if (options.type == "GET") {
+// 					// get方式请求
+// 					xhr.open(options.type, options.url, options.async)
+// 					xhr.send(params)
+// 					
+// 				} else if (options.type == "POST") {
+// 					
+// 					// post方式请求
+// 					xhr.open(options.type, options.url, options.async)
+// 					
+// 					xhr.setRequestHeader("Content", "application/x-www-form-urlencoded")
+// 					
+// 					xhr.send(params)
+// 					
+// 					
+// 				}
+// 				
+// 				xhr.onreadystatechange = function() {
+// 					
+// 					if (xhr.readyState == 4 && xhr.status == 200) {
+// 						options.success(xhr.responseText)
+// 					}
+// 				}
+// 
+// 				function data(data) {
+// 					var arr = []
+// 					for (let prop in data) {
+// 						arr.push(prop + "=" + data[prop])
+// 					}
+// 					return arr.join("&")
+// 				}
+// 			}
+// 
+// 			ajax({
+// 				url: "./sm.json", // url---->地址
+// 				type: "POST", // type ---> 请求方式
+// 				async: true, // async----> 同步：false，异步：true ,
+// 				dataType: "json",
+// // 				data: { //传入信息
+// // 					"price": "6000",
+// // 					"name": "小米sss手机",
+// // 					"imgUrl": "img/1.png",
+// // 					
+// // 				},
+// 				data:{price:1},
+// 				success: function(res) { //返回接受信息
+// 					console.log(res);
+// 				}
+// 			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,561 @@
+1.
+http://www.cnblogs.com/lidabo/archive/2012/01/05/2313481.html
+   prototype属性可算是JavaScript与其他面向对象语言的一大不同之处。
+
+简而言之，prototype就是“一个给类的对象添加方法的方法”，使用prototype属性，可以给类动态地添加方法，以便在JavaScript中实现“继承”的效果。
+
+      具体来说，prototype 是在 IE 4 及其以后版本引入的一个针对于某一类的对象的方法，当你用prototype编写一个类后，如果new一个新的对象，浏览器会自动把prototype中的内容替你附加在对象上。这样，通过利用prototype就可以在JavaScript中实现成员函数的定义，甚至是“继承”的效果。
+
+2，js中使用使用原型（prototype）定义方法的好处
+http://www.cnblogs.com/yunfour/p/3946444.html
+// 不使用原型定义方法：
+(function() {
+    function Constractor() {
+        this.method1 = method1;
+        this.method2 = method2;
+    }
+
+    function method1() {
+    }
+
+    function method2() {
+   }
+})();
+//一般使用原型定义时代码如下：
+(function () {
+    function Constractor() {
+    }
+
+    Constactor.prototype = {
+        method1: function() {
+        },
+        method2:  function() {
+        }
+    };
+    
+    // 或者
+    Constactor.prototype.method1 = function() {
+    };
+    Constactor.prototype.method2 = function() {
+    };
+
+})();
+
+理论和实现都没有什么高深的，只是为了达到同样的目的，可以通过不同的途径，只是此种方式在使用instanceOf运算符来判断继承关系时就不奏效了。
+
+
+WEB前端开发
+html5，css3，Javascript，JQuery学习分享平台和教程
+
+http://www.webclks.com/archives/3309
+
+地址三级联动
+http://www.5imoban.net/texiao/other/201508031223.html
+
+
+http://www.cnblogs.com/JasonLong/p/5278955.html
+
+A simple jQuery plugin for picking provinces, cities and districts of China. (中国 / 省市区 / 三级联动 / 地址选择器)
+
+https://github.com/fengyuanchen/distpicker
+
+
+framework7
+
+http://doc.okbase.net/zaixianshouce/archive/233536.html
+
+http://www.shouce.ren/study/api/s/framework7--popup-dynamic.html
+
+http://www.shouce.ren/study/api/s/framework7--popup-js.html
+
+点击查看更多
+$(".readMore a").click(function(){
+	    $(this).closest(".readMore").hide();
+	    $.ajax({
+	        type: 'GET',
+	        url: './json/trend.json',
+	        dataType: 'json',
+	        success: function(data) {
+	            var listsHtml = '';
+	           for (var i = 0; i < data.result.length; i++) {
+	                listsHtml +=' <li class="bracon-line"><dl class="bra-user-per"><dt><img src="'+ data.result[i].img +'"/></dt>'
+	                            +'<dd><span class="name">'+data.result[i].name+'</span> <em class="time">'+data.result[i].time+'</em>'
+	                            +'<span class="unit">'+data.result[i].sign+'</span></dd></dl>'
+	                            +'<div class="bra-cont-"><h3 class="bra-cont-cap">'+data.result[i].cap+'</h3><p class="bra-cont-tex">'+data.result[i].tex
+	                            /*+'</p><p class="bra-img"><img src="'+data.result[i].teximg+'"/></p>'*/
+	                            +'<p class="bra-img" style="background: url('+data.result[i].teximg+') no-repeat;background-size: cover;background-position: center;">'
+										+'<img src="images/bra-img1_bg.png" class="img-responsive" />'
+									+'</p>'
+	                            +'<p class="bra-shar-box"><Span class="star-modal"><i class="iconfont icon-shoucang2"></i><span>'+data.result[i].star+'</span>'
+	                            +'</Span> <Span class="zan-icon"><i class="iconfont icon-zan"></i><span>'+data.result[i].praise+'</span></Span> <Span data-toggle="modal" data-target="#fenx">'
+	                            +'<i class="iconfont icon-fenxiang"></i><span>'+data.result[i].share+'</span></Span></p></div></li>'
+	            }
+	            // 为了测试，延迟1秒加载
+	            setTimeout(function() {
+	                $('.trend_down').append(listsHtml);
+	            }, 1000);
+	        },
+	        error: function(err) {
+	            alert('Ajax error!'+err);
+	        }
+	    });
+	});
+
+
+JS判断是移动端浏览器
+
+ var browser = {
+        versions: function () {
+            var u = window.navigator.userAgent, app = window.navigator.appVersion;
+            return {     //移动终端浏览器版本信息
+                trident: u.indexOf('Trident') > -1, //IE内核
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+            };
+        }(),
+        language: (window.navigator.browserLanguage || window.navigator.language).toLowerCase()
+    };
+
+    if (browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
+        var ua = window.navigator.userAgent.toLowerCase();//获取判断用的对象
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            // 微信浏览器
+            alert('这是微信浏览器');
+        } else if (ua.match(/WeiBo/i) == "weibo") {
+            // 新浪微博客户端
+            alert('这是新浪微博客户端');
+        } else if (ua.match(/QQ/i) == "qq") {
+            // 在QQ浏览器打开
+            alert('这是QQ浏览器');
+        } else if (browser.versions.ios && ua.match(/MicroMessenger/i) != "micromessenger") {
+            // IOS终端
+            alert('这是IOS终端');
+        } else if (browser.versions.android && ua.match(/MicroMessenger/i) != "micromessenger") {
+            // 安卓终端
+            alert('这是安卓终端');
+        }
+    } else {
+        // PC浏览器
+        alert('在PC浏览器打开');
+    }
+
+
+ <!DOCTYPE html>
+<html>
+  <head>
+    <!-- This stylesheet contains specific styles for displaying the map
+         on this page. Replace it with your own styles as described in the
+         documentation:
+         https://developers.google.com/maps/documentation/javascript/tutorial -->
+    <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
+  </body>
+</html>
+
+https://developers.google.com/maps/documentation/javascript/ 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<el-dialog title="收货地址" :visible.sync="dialogTableVisible">
+				
+  <div slot="footer" class="dialog-footer">
+    23132312
+   </div>
+</el-dialog>
+
+
+select框兼容火狐和IE，appearance:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+background:url("http://ourjs.github.io/static/2015/arrow.png 
+
+")no-repeat scroll right center transparent;
+padding-right:14px;
+select::-ms-expand{
+display:none;}
+
+@font-face {
+    font-family: 'PingFangSC-Regular';
+    speak: none;
+    font-style:normal;
+    font-variant: normal;
+	text-transform: none;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+    src: url('../fonts/PingFangSC-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PingFangSC-Medium';
+    speak: none;
+    font-style:normal;
+    font-variant: normal;
+	text-transform: none;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+    src: url('../fonts/PingFangSC-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PingFangSC-Semibold';
+    speak: none;
+    font-style:normal;
+    font-variant: normal;
+	text-transform: none;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+    src: url('../fonts/PingFangSC-Semibold.ttf') format('truetype');
+}
+
+font-family: "PingFangSC-Medium","Microsoft YaHei", Arial, Helvetica, sans-serif, "SimSun";
+
+
+// 这是组价的代码
+<el-form-item prop="mobile">
+    <el-input type="text" v-model="ruleForm.mobile" auto-complete="off" placeholder="请输入手机号"></el-input>
+</el-form-item>
+
+// 这是rules的代码
+mobile: [
+    { validator: validateMobile, trigger: 'blur' },
+    { required: true, message: '请输入手机号', trigger: 'blur' },
+    { pattern: /^1[34578]\d{9}$/, message: '目前只支持中国大陆的手机号码' }
+],
+
+[{
+      "Tid": "1",
+      "name": "雅漾日常",
+      "item": "资源表",
+      "submit": "Wendy",
+      "view": "<a href='www.baidu.com'>查看</a>",
+      "date": "2017.10.20",
+      "reply": "<a href='javascript:;' class='replys'><i class='icon iconfont icon-pizhun'></i>批准</a><a href='javascript:;' class='replys'><i class='icon iconfont icon-bohui'></i>驳回</a>"
+ }]
+
+
+/*重置placeholder的样式*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #666;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #666;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #666;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #666;
+}
+
+js判断上传的文件类型是图片还是文档
+
+function uploadfile(){
+        var file;
+        for(var i=0; i<document.getElementById('file').files.length;i++){
+            file = document.getElementById('file').files[i];
+            if(!/image\/\w+/.test(file.type)){
+                alert('其他类型')
+            }else{
+                alert('是图片')
+            }
+        }
+        console.log(file.name);
+        console.log(file.size);
+        console.log(file.type);
+
+    }
+
+
+axisPointer:{
+							type: 'shadow'    
+						},
+						formatter: function(params) {
+							let ret = [
+								'<style>',
+									'.xxx{',
+										'color:blue;',
+									'}',
+								'</style>',
+								'<div>'
+							].join('')
+							
+							for (let i in params) {
+									ret += [
+										'<div>',
+											'<span class="xxx">',
+												`${params[i].seriesName}`,
+											'</span>',
+											'<span style="margin-left:20px;color:green;">',
+												`${params[i].value}`,
+											'</span>',
+											'<hr>',
+										'</div>'
+									].join('')
+							}
+							ret += '</div>'
+							return ret
+						}
+
+
+
+消息提示框可以先制作一个圆角矩形，然后在需要的地方放置一个三角形。
+
+#comment_bubble {
+
+    width: 140px;
+
+    height: 100px;
+
+    background: #088cb7;
+
+    position: relative;
+
+    -moz-border-radius: 12px;
+
+    -webkit-border-radius: 12px;
+
+    border-radius: 12px;
+
+}
+
+  
+
+#comment_bubble:before {
+
+    content: "";
+
+    width: 0;
+
+    height: 0;
+
+    right: 100%;
+
+    top: 38px;
+
+    position: absolute;
+
+    border-top: 13px solid transparent;
+
+    border-right: 26px solid #088cb7;
+
+    border-bottom: 13px solid transparent;
+
+}  
+
+
+
+require.js
+
+requirejs.config({
+    shim: {
+        'jquery.colorize': {
+            deps: ['jquery'],
+            exports: 'jQuery.fn.colorize'
+        },
+        'jquery.scroll': {
+            deps: ['jquery'],
+            exports: 'jQuery.fn.scroll'
+        },
+        'backbone.layoutmanager': {
+            deps: ['backbone']
+            exports: 'Backbone.LayoutManager'
+        }
+    }
+});
+
+
+
+$("ul.manage li").on({    
+	        touchstart: function(e) {  
+	        	var _this = $(this);
+	            // 长按事件触发    
+	            timeOutEvent = setTimeout(function() {    
+	                timeOutEvent = 0;    
+	                _this.children(".delete").fadeIn();
+	                _this.siblings().children(".delete").hide(); 
+	            }, 400);        
+	        },    
+	        touchmove: function() {    
+	            clearTimeout(timeOutEvent);    
+	            timeOutEvent = 0;    
+	        },    
+	        touchend: function() {    
+	            clearTimeout(timeOutEvent);    
+	            if (timeOutEvent != 0) {    
+	                alert('你点击了');    
+	            }    
+	            return false;    
+	        }    
+	    })
+
+
+
+			<nav class="navbar navbar-default">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">Brand</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+			        <li><a href="#">Link</a></li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Action</a></li>
+			            <li><a href="#">Another action</a></li>
+			            <li><a href="#">Something else here</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">One more separated link</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			    </div>
+			</nav>
+
+
+
+
+[
+	{
+		label:
+		val:
+		is2line: 
+	}
+]
+
+
+
+
+appearance:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+background:url("http://ourjs.github.io/static/2015/arrow.png")no-repeat scroll right center transparent;
+padding-right:14px;
+select::-ms-expand{
+display:none;}
+
+
+//左侧列表图 缩略图滚动式
+	var mySwiper = new Swiper ('.preview_items', {
+	    direction: 'vertical',
+		slidesPerView : 2,
+		mousewheelControl : true,
+		spaceBetween : 20
+	  }) 
+	  
+
+
+{
+				            		name:'达成率', 
+				            		value:79,
+				            		itemStyle :{
+				            			normal : {
+						                color :'#0099cc',
+						                label : {
+						                    show : true,
+						                    position : 'center',
+						                    formatter : '{b}',
+						                    textStyle: {
+						                        baseline : 'bottom',
+						                        fontSize:26
+						                    }
+						                },
+						                labelLine : {
+						                    show : false
+						                }
+						            }
+				            		}
+				            	},
+                        		{
+                        			name:'79%', 
+                        			value:21, 
+                        			itemStyle :{
+                        				normal : {
+							                color: '#99ccff',
+							                label : {
+							                    show : true,
+							                    position : 'center',
+							                    fontSize:22
+							                },
+							                labelLine : {
+							                    show : false
+							                }
+							            }
+                        			}
+                        			
+                        		}
+
+
+
+let _self = this
+                let requestAnimationFrame = raf.requestAnimationFrame()
+                let cancelAnimationFrame = raf.cancelAnimationFrame()
+                const el = document.getElementById('implquota_chart')
+                let timer = requestAnimationFrame(function fn(){
+                    if (el.offsetWidth > 0) {				//定时器执行
+                    	this.loadImplquotaChart()
+                        cancelAnimationFrame(timer)				//清除定时器
+                        
+						//执行相应的逻辑
+                        if (_self.calculaFlag) {
+                            _self.calculaFlag = false
+                            _self.calculationMargin(false,30)
+                        }
+                    }else{				//没有找到相应的对象，继续平滑过渡
+                        timer = requestAnimationFrame(fn)
+                    }
+                })
+
+
+
+
+$("#Tolist").append([
+                   		'<li>'+
+							'<div class="weihui">',
+			        			'<span>'+data.List[i].repayname+'</span>',
+			        			'<span>'+data.List[i].repaynum+'</span>',
+			        		'</div>'+
+			        		'<div class="repayFund">',
+			        			'<div class="item1">',
+			        				'<span>'+data.List[i].reItem1+'</span>',
+			        				'<span>还款金额／元</span>',
+			        			'</div>'+
+			        			'<div class="item2">',
+			        				'<div class="term1">',
+			        					'<span>'+data.List[i].deadline+'</span><span>'+data.List[i].rent+'</span>',
+			        				'</div>',
+			        				'<div class="term2">',
+			        					'<span>期限 / 月</span><span>起租</span>',
+			        				'</div>',
+			        			'</div>',
+			        		'</div>',
+						'</li>'
+                   ].join(''));

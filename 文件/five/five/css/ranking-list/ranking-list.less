@@ -1,0 +1,96 @@
+@rem: 74rem;
+.font-dpr (@fontSize: 12px) {
+    font-size: @fontSize;
+    [data-dpr=2] & {
+        font-size: @fontSize*2;
+    }
+    [data-dpr=3] & {
+        font-size: @fontSize*3;
+    }
+}
+
+.border-radius(@radius: 5px) {
+    border-radius: @radius;
+}
+
+.bg(@bk) {
+    background: @bk;
+}
+
+.lg(@lg) {
+    line-height: @lg;
+}
+
+body {
+    .bg(#f2f2f2);
+}
+
+#main {
+    width: 100%;
+    margin-top: 182/@rem;
+    margin-bottom: 98/@rem;
+    background: none;
+    padding: 0;
+    div.common1{
+        width: 100%;
+        padding: 0 39/@rem 21/@rem 34/@rem;
+        margin-bottom: 20/@rem;
+        background: #fff;
+        .top {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            align-items: center;
+            h4 {
+                font-size: 15px;
+                line-height: 89/@rem;
+            }
+        }
+        .bottom {
+            width: 100%;
+            display: flex;
+            justify-content:flex-start;
+            .img {
+                width: 156/@rem;
+                img {
+                    width: 100%;
+                }
+            }
+            .discription {
+                margin-left: 57/@rem;
+                li {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    line-height: 57/@rem;
+                    margin-bottom: 20/@rem;
+                    i {
+                        width: 24/@rem;
+                        height: 24/@rem;
+                        margin-top: -5px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    div {
+                        margin-left: 17/@rem;
+                        font-size: 0;
+                        span:first-child{
+                            font-size:12px;
+                            font-weight: bold;
+                            margin-right: 26/@rem;
+                        }
+                         span:nth-child(2){
+                             font-size: 8px;
+                             color: #a8a8a8;
+                         }
+                    }
+                }
+                li:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

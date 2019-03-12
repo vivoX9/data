@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<style>
+		.top img{
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<img src="img/86.png" alt=""  class="first"/><span style="margin-top: -1px;">部门核稿</span>
+	</div>
+	<div class="bottom">
+		<img src="img/85.png" alt="" />系统运行部
+	</div>
+	<script type="text/javascript">
+		var show=true;
+			document.querySelector(".top").onclick=function(){
+				if(show){
+					document.querySelector(".bottom").style.display="none";
+					document.querySelector(".first").src="img/87.png"
+					show=false;
+				}else{
+					document.querySelector(".bottom").style.display="block";
+					document.querySelector(".first").src="img/86.png"
+					show=true;
+				}
+			}
+		
+	</script>
+</body>
+</html>

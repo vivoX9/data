@@ -1,0 +1,119 @@
+body {
+  background: #f2f2f2;
+}
+#main {
+  width: 100%;
+  padding: 0 0.39189189rem;
+  margin-top: 2.47297297rem;
+  margin-bottom: 1.32432432rem;
+}
+#main .images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#main .images a p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 0.51351351rem;
+}
+#main .images .img1 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/16.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img1 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img2 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/18.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img2 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img3 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/17.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img3 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img4 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/19.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img4 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img5 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/14.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img5 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img6 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/13.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img6 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img7 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/15.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img7 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img8 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/12.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img8 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img9 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/15.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img9 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}
+#main .images .img10 {
+  width: 4.45945946rem;
+  height: 2.67567568rem;
+  background: url(../../images/18.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.40540541rem;
+}
+#main .images .img10 div {
+  padding: 0.43243243rem 0 0 0.40540541rem;
+}

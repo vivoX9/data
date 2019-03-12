@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var getMax = function(array) {
+				var max = undefined;
+				for (var i = 0; i <array.length; i++) {
+					max = max === undefined ? array[i] : (max >= array[i] ?
+						max : array[i]);
+				}
+				return max;
+			}
+			var arr = [1, 25, 38, 662, 34, 856]
+			console.log(getMax(arr))
+		</script>
+	</body>
+</html>
